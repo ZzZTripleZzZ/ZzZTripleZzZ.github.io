@@ -1,24 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Even - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Even - A super concise theme for Hugo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 21:00:44 -0400</lastBuildDate>
-    
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
-      <pubDate>Mon, 10 Apr 2023 21:00:44 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/my-first-post/</guid>
-      <description>My first Post zifanzhang.com</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Zifan Zhang&#39;s Personal Website</title>
+        <link>http://zifanzhang.com/</link>
+        <description>This is Zifan&#39;s personal website and blogs.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zzhang66@ncsu.edu (Zifan Zhang)</managingEditor>
+            <webMaster>zzhang66@ncsu.edu (Zifan Zhang)</webMaster><lastBuildDate>Thu, 13 Apr 2023 11:21:24 -0400</lastBuildDate>
+            <atom:link href="http://zifanzhang.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>http://zifanzhang.com/posts/first_post/</link>
+    <pubDate>Thu, 13 Apr 2023 10:42:30 -0400</pubDate>
+    <author>Zifan Zhang</author>
+    <guid>http://zifanzhang.com/posts/first_post/</guid>
+    <description><![CDATA[My First Post zifanzhang.com]]></description>
+</item>
+</channel>
 </rss>

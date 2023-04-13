@@ -7,12 +7,12 @@
             <webMaster>zzhang66@ncsu.edu (Zifan Zhang)</webMaster><lastBuildDate>Thu, 13 Apr 2023 11:21:24 -0400</lastBuildDate>
             <atom:link href="http://zifanzhang.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
+    <title>My First Post</title>
     <link>http://zifanzhang.com/posts/first_post/</link>
     <pubDate>Thu, 13 Apr 2023 10:42:30 -0400</pubDate>
     <author>Zifan Zhang</author>
     <guid>http://zifanzhang.com/posts/first_post/</guid>
-    <description><![CDATA[My First Post zifanzhang.com]]></description>
+    <description><![CDATA[This is my first post on this website. I will be graduating and my journey to NC State will start soon.]]></description>
 </item>
 </channel>
 </rss>

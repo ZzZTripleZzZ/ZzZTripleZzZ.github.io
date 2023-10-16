@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Zifan Zhang"
 description              : &description "Ph.D. student @ NC State"
 url                      : "https://zifanzhang.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "https://zifanzhang.com" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZzZTripleZzZ/ZzZTripleZzZ.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zifan Zhang"
-  avatar           : "pic1.png"
+  avatar           : "image/pic1.png"
   bio              : "Ph.D. student @ NC State"
   location         : "Raleigh, NC"
   employer         :

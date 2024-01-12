@@ -7,9 +7,7 @@ venue: "the Ohio State University"
 date: 2021-01-01
 location: "Columbus, Ohio"
 ---
-Served as TA from FA21 to SP23.
-
-Design and analysis of sequential circuits; digital circuit design using building blocks, programmable logic devices; design of basic computer components such as arithmetic logic units.
+Served as TA from FA21 to SP23. Design and analysis of sequential circuits; digital circuit design using building blocks, programmable logic devices; design of basic computer components such as arithmetic logic units.
 
 Prior Course Number: 561, 667
 Transcript Abbreviation: Adv Digital Dsgn

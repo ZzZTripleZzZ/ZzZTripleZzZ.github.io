@@ -2,9 +2,9 @@
 title: "Teaching Assistant for CSC 505"
 collection: teaching
 type: "Graduate course"
-permalink: /teaching/2023-fall-teaching-1
+permalink: /teaching/2023-fall-teaching-2
 venue: "North Carolina State University"
-date: 2015-01-01
+date: 2023-08-22
 location: "Raleigh, NC"
 ---
 
@@ -21,7 +21,7 @@ in addition, each student will learn how to plan, prepare, and record a short po
 
 Course Requirements
 ======
-Grades will be computed as a weighted average of four homework assignments (equal weights, total 20%), multiple announced online quizzes (equal weight, total 40%), a podcast episode about a class topic (consisting of outline, detailed draft, and audio recording, total 35%), and class participation (total of 5%). Bad quiz forgiveness rule: the two lowest quiz scores will be dropped.
+Grades will be computed as a weighted average of four homework assignments (equal weights, total 20\%), multiple announced online quizzes (equal weight, total 40\%), a podcast episode about a class topic (consisting of outline, detailed draft, and audio recording, total 35\%), and class participation (total of 5\%). Bad quiz forgiveness rule: the two lowest quiz scores will be dropped.
 
 The Piazza software (message board system) will be the primary mode of communication about all aspects of the course (questions about homework, exams, and course topics) – email should be used only for personal matters.
 

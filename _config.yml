@@ -86,8 +86,8 @@ author:
   location         : "Raleigh, NC"
   employer         :
   pubmed           : 
-  googlescholar    : 
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?user=tPkUfx4AAAAJ&hl=en"
+  email            : "zzhang66 AT ncsu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "https://github.com/ZzZTripleZzZ"
   google_plus      :
   keybase          :
   instagram        :

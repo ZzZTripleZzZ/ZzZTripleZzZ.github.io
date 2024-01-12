@@ -2,7 +2,6 @@
 title: "Communication Efficiency and Security for Multi-Agent Reinforcement Learning"
 collection: publications
 permalink: /publication/paper-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-06-01
 venue: 'OhioLink'
 paperurl: 'https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1681483595435088&disposition=inline'

@@ -24,4 +24,5 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 # News
 
 [12/23] A paper on multi-agent reinforcement learning policy evaluation with local TD-learning updates is accepted by [ACM AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/) (acceptance rate: 25%).
+
 [08/23] Joined the NICE Lab at NC State as a Ph.D. student.

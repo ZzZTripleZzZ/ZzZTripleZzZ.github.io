@@ -22,6 +22,9 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 # News
+[04/24] A paper on Byzantine-resilient decentralized federated learning has been accepted by [ACM CCS 2024] (acceptance rate: 19%).
+
+[03/24] Received Graduate Merit Award (GMA) provided by the College of Engineering.
 
 [12/23] A paper on multi-agent reinforcement learning policy evaluation with local TD-learning updates is accepted by [ACM AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/) (acceptance rate: 25%).
 

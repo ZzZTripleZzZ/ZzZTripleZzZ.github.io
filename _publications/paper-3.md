@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/paper-3
 excerpt: 'M. Fang, Z. Zhang, Hairi, P. Khanduri, J. Liu, S. Lu, Y. Liu, Z. Gong'
 date: 2024-10-14
-venue: 'The 31th ACM Conference on Computer and Communications Security (CCS) 2024'
+venue: 'The 31th ACM Conference on Computer and Communications Security (CCS)'
 ---
 Federated learning (FL) enables multiple clients to collaboratively train machine learning models without revealing their private training data.
 In conventional FL, the system follows the server-assisted architecture (server-assisted FL), where the training process is coordinated by a central server.

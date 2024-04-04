@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/paper-2
 excerpt: 'FNU Hairi, Z. Zhang, J. Liu'
 date: 2024-05-01
-venue: 'International Conference on Autonomous Agents and Multiagent Systems (AAMAS) 2024'
+venue: 'International Conference on Autonomous Agents and Multiagent Systems (AAMAS)'
 ---
 In actor-critic framework for fully decentralized multi-agent reinforcement learning (MARL), one of the key components is the MARL policy evaluation (PE) problem, where a set of $N$ agents work cooperatively to evaluate the value function of the global states for a given policy through communicating with their neighbors.
 In MARL-PE, a critical challenge is how to lower the sample and communication complexities, which are defined as the number of training samples and communication rounds needed to converge to some $\epsilon$-stationary point.

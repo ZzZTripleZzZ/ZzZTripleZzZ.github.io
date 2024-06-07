@@ -180,8 +180,8 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: true
-    # permalink: /:collection/:path/
-    permalink: /publication/papers
+    permalink: /:collection/:path/
+    # permalink: /publication/papers
   portfolio:
     output: false
     permalink: /:collection/:path/

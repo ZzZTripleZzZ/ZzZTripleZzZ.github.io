@@ -17,12 +17,12 @@ I'm currently a Ph.D. student in the Department of Computer Science at [North Ca
 
 My research pursuits are rooted in the confluence of wireless networks, machine learning, and mobile computing, each bearing the potential to profoundly impact modern technological landscapes. In the sphere of networking and systems, I delve into exploring wireless technologies, envisioning new network architectures, developing protocols, investigating digital twins, and fortifying security measures. Transitioning into machine learning, my focus broadens to harnessing generative AI, fostering self-awareness systems, and employing data analytics to enhance networking, sensing, and security paradigms. The realm of mobile computing beckons with opportunities in infrastructure mobility, employing Unmanned Aerial Vehicles (UAVs), and orchestrating robotic networked systems. 
 
-- **Network Digital Twins: Mapping Next Generation Wireless Networks into Digital Reality**
+- **Network Digital Twins: Mapping NextGen Wireless Networks into Digital Reality**
 - **Trustworthy Distributed Mapping for Network Digital Twins**
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 # News
-[06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received the $$\textcolor{red}{Best Paper Award Runner-up}$$ at IEEE/IFIP Networking!
+[06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received the $\textcolor{red}{Best Paper Award Runner-up}$ at IEEE/IFIP Networking!
 
 [05/24] A paper on digital twin-assisted caching optimization has been accepted by [IEEE Journal on Selected Areas in Communications (JSAC)](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/advanced-optimization-theory-and-algorithms-next-generation) (impact factor: 16.4).
 

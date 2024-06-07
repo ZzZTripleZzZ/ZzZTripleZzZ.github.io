@@ -1,7 +1,7 @@
 ---
 title: "Sample and Communication Efficient Fully Decentralized MARL Policy Evaluation via a New Approach: Local TD update"
 collection: publications
-permalink: /publication/paper-2
+# permalink: /publication/paper-2
 excerpt: 'FNU Hairi, Z. Zhang, J. Liu'
 date: 2024-05-01
 venue: 'International Conference on Autonomous Agents and Multiagent Systems (AAMAS)'

@@ -1,7 +1,7 @@
 ---
 title: "Communication Efficiency and Security for Multi-Agent Reinforcement Learning"
 collection: publications
-permalink: /publication/paper-1
+# permalink: /publication/paper-1
 excerpt: 'Z. Zhang'
 date: 2023-06-01
 venue: 'OhioLink'

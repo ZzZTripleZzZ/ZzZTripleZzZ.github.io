@@ -1,7 +1,7 @@
 ---
 # title: "Communication Efficiency and Security for Multi-Agent Reinforcement Learning"
 collection: publications
-# permalink: /publication/paper-1
+permalink: /publication/paper-1
 # authors: 'Z. Zhang'
 # year: 2023
 # journal: 'OhioLink'
@@ -9,8 +9,8 @@ collection: publications
 ---
 
 
-### <font color="red">Year 2024</font> \\
-- **Z. Li, M. Chen, G. Li, X. Lin, and Y. Liu**, "Map-Driven mmWave Link Quality Prediction with Spatial-Temporal Mobility Awareness", *IEEE Transactions on Mobile Computing (TMC)*, to appear, 2024. `Networks` \\
+### <font color="red">Year 2024</font> \
+- **Z. Li, M. Chen, G. Li, X. Lin, and Y. Liu**, "Map-Driven mmWave Link Quality Prediction with Spatial-Temporal Mobility Awareness", *IEEE Transactions on Mobile Computing (TMC)*, to appear, 2024. `Networks` \
 
 - **Z. Zhang, Y. Liu, Z. Peng, M. Chen, D. Xu, and S. Cui**, "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks", *IEEE Journal on Selected Areas in Communications (JSAC)*, to appear, 2024. `Networks` `Optimization` \\
 

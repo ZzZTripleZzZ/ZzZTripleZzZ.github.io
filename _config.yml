@@ -179,8 +179,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
-    permalink: /:collection/:path/
+    output: true
+    # permalink: /:collection/:path/
+    permalink: /publication/paper-1
   portfolio:
     output: false
     permalink: /:collection/:path/

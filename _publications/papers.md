@@ -9,11 +9,10 @@ permalink: /publication/paper-1
 ---
 
 
-### <font color="red">Year 2024</font>
+### <font color="red">Year 2024</font> \\
+- **Z. Li, M. Chen, G. Li, X. Lin, and Y. Liu**, "Map-Driven mmWave Link Quality Prediction with Spatial-Temporal Mobility Awareness", *IEEE Transactions on Mobile Computing (TMC)*, to appear, 2024. `Networks` \\
 
-- **Z. Li, M. Chen, G. Li, X. Lin, and Y. Liu**, "Map-Driven mmWave Link Quality Prediction with Spatial-Temporal Mobility Awareness", *IEEE Transactions on Mobile Computing (TMC)*, to appear, 2024. `Networks`
-
-- **Z. Zhang, Y. Liu, Z. Peng, M. Chen, D. Xu, and S. Cui**, "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks", *IEEE Journal on Selected Areas in Communications (JSAC)*, to appear, 2024. `Networks` `Optimization`
+- **Z. Zhang, Y. Liu, Z. Peng, M. Chen, D. Xu, and S. Cui**, "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks", *IEEE Journal on Selected Areas in Communications (JSAC)*, to appear, 2024. `Networks` `Optimization` \\
 
 - **X. Zhang, J. Zhang, K. Chow, J. Chen, Y. Mao, M. Rahouti, X. Li, Y. Liu, and W. Wei**, "Visualizing the Shadows: Unveiling Data Poisoning Behaviors in Federated Learning", *IEEE International Conference on Distributed Computing Systems (ICDCS)*, Demo paper, to appear, 2024. `Security` `AI/ML`
 

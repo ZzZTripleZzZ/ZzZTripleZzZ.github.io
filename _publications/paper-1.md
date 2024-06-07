@@ -2,9 +2,9 @@
 title: "Communication Efficiency and Security for Multi-Agent Reinforcement Learning"
 collection: publications
 # permalink: /publication/paper-1
-excerpt: 'Z. Zhang'
-date: 2023-06-01
-venue: 'OhioLink'
+authors: 'Z. Zhang'
+year: 2023
+journal: 'OhioLink'
 
 ---
 In multi-agent reinforcement learning (MARL) settings, there are various strategies that

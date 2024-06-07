@@ -22,7 +22,7 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 # News
-[06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received the $\textcolor{red}{Best Paper Award Runner-up}$ at IEEE/IFIP Networking!
+[06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received <font color="red">Best Paper Award Runner-up</font> at IEEE/IFIP Networking!
 
 [05/24] A paper on digital twin-assisted caching optimization has been accepted by [IEEE Journal on Selected Areas in Communications (JSAC)](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/advanced-optimization-theory-and-algorithms-next-generation) (impact factor: 16.4).
 

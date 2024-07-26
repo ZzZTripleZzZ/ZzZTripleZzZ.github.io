@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "About me"
+title: "Zifan's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 ## Short Bibliography
-
 
 I'm currently a Ph.D. student in the Department of Computer Science at [North Carolina State University](https://www.ncsu.edu/), working with Professor [Yuchen Liu](https://nicelab.us/). I obtained my BS and MS degree both from the Department of Electrical and Computer Engineering at [The Ohio State University](https://www.osu.edu/), supervised by Professor [Jia (Kevin) Liu](https://kevinliu-osu.github.io/). I am broadly interested in building trustworthy and intelligent wireless netowrk and communications with advanced techniques, including federated learning, digital twins, reinforcement learning, etc.
 

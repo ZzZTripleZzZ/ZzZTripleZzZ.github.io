@@ -20,6 +20,8 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
+[07/24] Media coverage on [“How a ‘Digital Twin’ Can Make Wireless Networks Faster, More Reliable”](https://news.ncsu.edu/2024/07/improved-edge-caching/).
+
 [07/24] A paper on network digital twin poisoning attacks and defense as been accepted by [IEEE Internet of Things Journal (IoT-J)](https://ieee-iotj.org/).
 
 [06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received <font color="red">Best Paper Award Runner-up</font> at IEEE/IFIP Networking!

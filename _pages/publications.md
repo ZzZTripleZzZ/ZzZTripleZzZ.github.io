@@ -11,6 +11,12 @@ author_profile: true
 Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
 <i>Submitted to IEEE Communication Magazine </i>, 2024.
 
+
+* On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins
+<br>
+<u><b>Z. Zhang</b></u>, M. Chen, Y. Liu <br>
+<i>Submitted to IEEE INFOCOM </i>, 2024.
+
 ## 2024
 
 * Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks

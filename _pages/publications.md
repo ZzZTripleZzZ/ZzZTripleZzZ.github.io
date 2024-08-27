@@ -17,6 +17,11 @@ Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
 <u><b>Z. Zhang</b></u>, M. Chen, Y. Liu <br>
 <i>Submitted to IEEE INFOCOM </i>, 2024.
 
+* On the Hardness of Decentralized Multi-Agent Policy Evaluation under Byzantine Attacks
+<br>
+Hairi, M. Fang, <u><b>Z. Zhang</b></u>, A. Velasquez, J. Liu <br>
+<i>Submitted to IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks </i> (**WiOpt**), 2024. (<font color="red">Invited Paper</font>)
+
 ## 2024
 
 * Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks

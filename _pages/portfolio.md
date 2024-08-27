@@ -12,7 +12,7 @@ IFIP/IEEE NETWORKING 2024 student travel grant
 
 ## Conference Reviewer
 IEEE International Conference on Communications (ICC) Workshop EDGE5GMN \\
-IEEE Global Communication Conference (GLOBECOM) Workshop WS-28
+IEEE Global Communication Conference (GLOBECOM) Workshop WS-28 \\
 IEEE Conference on Local Computer Networks (LCN)
 
 ## Journal Reviewer

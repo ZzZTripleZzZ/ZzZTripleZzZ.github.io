@@ -9,18 +9,18 @@ author_profile: true
 * Digital Network Twins for Next-generation Wireless: Creation, Optimization, and Challenges
 <br>
 Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
-<i>Submitted to IEEE Communication Magazine </i>, 2024.
+<i>Submitted to IEEE Communication Magazine</i>, 2024.
 
 
 * On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins
 <br>
 <u><b>Z. Zhang</b></u>, M. Chen, Y. Liu <br>
-<i>Submitted to IEEE INFOCOM </i>, 2024.
+<i>Submitted to IEEE INFOCOM</i>, 2024.
 
 * On the Hardness of Decentralized Multi-Agent Policy Evaluation under Byzantine Attacks
 <br>
 Hairi, M. Fang, <u><b>Z. Zhang</b></u>, A. Velasquez, J. Liu <br>
-<i>Submitted to IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks </i> (**WiOpt**), 2024. (<font color="red">Invited Paper</font>)
+<i>Submitted to IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks</i> (**WiOpt**), 2024. (<font color="red">Invited Paper</font>)
 
 ## 2024
 
@@ -34,13 +34,13 @@ Hairi, M. Fang, <u><b>Z. Zhang</b></u>, A. Velasquez, J. Liu <br>
 [[pdf]](https://arxiv.org/pdf/2404.14389)
 <br>
 <u><b>Z. Zhang</b></u>, M. Fang, J. Huang, Y. Liu <br>
-<i>Published in IFIP/IEEE Networking Conference </i> , 2024. (<font color="red">Best Paper Award Runner-up</font>)
+<i>Published in IFIP/IEEE Networking Conference</i>, 2024. (<font color="red">Best Paper Award Runner-up</font>)
 
 * Mapping Wireless Networks into Digital Reality through Joint Vertical and Horizontal Learning
 [[pdf]](https://arxiv.org/pdf/2404.14497)
 <br>
 <u><b>Z. Zhang</b></u>, M. Chen, Z. Yang, Y. Liu <br>
-<i>Published in IFIP/IEEE Networking Conference </i> , 2024. 
+<i>Published in IFIP/IEEE Networking Conference</i>, 2024. 
 
 * Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks
 [[pdf]](https://arxiv.org/pdf/2407.00286)

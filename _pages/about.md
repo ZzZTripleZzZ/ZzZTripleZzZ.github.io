@@ -20,6 +20,8 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
+[09/24] A paper on decentralized multi-agent reinforcement learning as been accepted by [IEEE/IFIP International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)](https://wiopt24.github.io/) as an invited paper.
+
 [07/24] Media coverage on [“How a ‘Digital Twin’ Can Make Wireless Networks Faster, More Reliable”](https://news.ncsu.edu/2024/07/improved-edge-caching/).
 
 [07/24] A paper on network digital twin poisoning attacks and defense as been accepted by [IEEE Internet of Things Journal (IoT-J)](https://ieee-iotj.org/).

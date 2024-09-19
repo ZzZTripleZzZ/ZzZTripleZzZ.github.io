@@ -9,20 +9,28 @@ author_profile: true
 * Digital Network Twins for Next-generation Wireless: Creation, Optimization, and Challenges
 <br>
 Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
-<i>Submitted to IEEE Communication Magazine</i>, 2024.
+<i>Submitted to IEEE Communication Magazine (Major Revision)</i>, 2024.
 
 
 * On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins
 <br>
 <u><b>Z. Zhang</b></u>, M. Chen, Y. Liu <br>
-<i>Submitted to IEEE INFOCOM</i>, 2024.
+<i>Submitted to IEEE INFOCOM</i>, 2025.
+
+
+* Securing Safety-Critical Systems with Robust Federated Reinforcement Learning
+<br>
+<u><b>Z. Zhang</b></u>, D. Chen, M. Fang, Z. Liu, P. Khanduri, X. Yang, Y. Liu <br>
+<i>Submitted to Usenix Security</i>, 2025.
+
+
+
+## 2024
 
 * On the Hardness of Decentralized Multi-Agent Policy Evaluation under Byzantine Attacks
 <br>
 Hairi, M. Fang, <u><b>Z. Zhang</b></u>, A. Velasquez, J. Liu <br>
-<i>Submitted to IEEE International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks</i> (**WiOpt**), 2024. (<font color="red">Invited Paper</font>)
-
-## 2024
+<i>Published in IEEE/IFIP International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks</i> (**WiOpt**), 2024. (<font color="red">Invited Paper</font>)
 
 * Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks
 [[pdf]](https://arxiv.org/pdf/2407.01917)

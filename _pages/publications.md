@@ -7,6 +7,7 @@ author_profile: true
 
 ## Preprints or Under Review
 * Digital Network Twins for Next-generation Wireless: Creation, Optimization, and Challenges
+[[pdf]](https://arxiv.org/pdf/2410.18002)
 <br>
 Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
 <i>Submitted to IEEE Communication Magazine (Major Revision)</i>, 2024.
@@ -22,6 +23,18 @@ Y. Liu, Z. Peng, <u><b>Z. Zhang</b></u>, H. Yu, M. Chen <br>
 <br>
 <u><b>Z. Zhang</b></u>, D. Chen, M. Fang, Z. Liu, P. Khanduri, X. Yang, Y. Liu <br>
 <i>Submitted to Usenix Security</i>, 2025.
+
+
+* Poisoning Attacks and Defenses to Federated Unlearning
+<br>
+W. Wang, Q. Ma, <u><b>Z. Zhang</b></u>, Y. Liu, Z. Liu, M. Fang<br>
+<i>Submitted to ACM the Web Conference</i>, 2025.
+
+
+* Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security
+<br>
+<u><b>Z. Zhang</b></u>, M. Fang, D. Chen, X. Yang, Y. Liu <br>
+<i>Submitted to IEEE Wireless Communications</i>, 2025.
 
 
 

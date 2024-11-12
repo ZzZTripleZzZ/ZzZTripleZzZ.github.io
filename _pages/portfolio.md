@@ -18,4 +18,5 @@ IEEE Global Communication Conference (GLOBECOM) Workshop WS-28
 
 ## Journal Reviewer
 IEEE Journal on Selected Areas in Communications (JSAC) \\
-IEEE Transactions on Network Science and Engineering (TNSE)
+IEEE Transactions on Network Science and Engineering (TNSE) \\
+IEEE Transactions on Green Communications and Networking (TGCN)

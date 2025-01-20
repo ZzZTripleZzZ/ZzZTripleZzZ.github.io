@@ -20,13 +20,15 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
+[01/25] A paper on federated unlearning attacks and defenses as been accepted by [ACM The Web Conference](https://www2025.thewebconf.org/).
+
 [01/25] Invited to give a talk about digital network twins at ORNL's Advanced Technologies Section (ATS) Seminar Series.
 
-[09/24] A paper on decentralized multi-agent reinforcement learning as been accepted by [IEEE/IFIP International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)](https://wiopt24.github.io/) as an invited paper.
+[09/24] A paper on decentralized multi-agent reinforcement learning has been accepted by [IEEE/IFIP International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)](https://wiopt24.github.io/) as an invited paper.
 
 [07/24] Media coverage on [“How a ‘Digital Twin’ Can Make Wireless Networks Faster, More Reliable”](https://news.ncsu.edu/2024/07/improved-edge-caching/).
 
-[07/24] A paper on network digital twin poisoning attacks and defense as been accepted by [IEEE Internet of Things Journal (IoT-J)](https://ieee-iotj.org/).
+[07/24] A paper on network digital twin poisoning attacks and defenses has been accepted by [IEEE Internet of Things Journal (IoT-J)](https://ieee-iotj.org/).
 
 [06/24] Our paper, titled “Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction”, received <font color="red">Best Paper Award Runner-up</font> at IEEE/IFIP Networking!
 
@@ -38,6 +40,6 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 
 [03/24] Received Graduate Merit Award (GMA) provided by the College of Engineering.
 
-[12/23] A paper on multi-agent reinforcement learning policy evaluation with local TD-learning updates is accepted by [ACM AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/) (acceptance rate: 25%).
+[12/23] A paper on multi-agent reinforcement learning policy evaluation with local TD-learning updates has been accepted by [ACM AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/) (acceptance rate: 25%).
 
 [08/23] Joined the NICE Lab at NC State as a Ph.D. student.

@@ -11,6 +11,7 @@ NCSU Graduate Merit Award \\
 IFIP/IEEE NETWORKING 2024 student travel grant
 
 ## Conference Reviewer
+IEEE International Conference on Computer Communications (INFOCOM) 2025 DTWIN Workshop \\
 IEEE International Conference on Communications (ICC) 2025 MLCN Track \\
 IEEE International Conference on Communications (ICC) 2025 ISAC Track \\
 IEEE Consumer Communications & Networking Conference (CCNC) 2025 Main Tracks \\

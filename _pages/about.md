@@ -20,7 +20,7 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
-[11/24] Will attend a seminar invited by Oak Ridge National Laboratory (ORNL).
+[01/25] Invited to give a talk about digital network twins at ORNL's Advanced Technologies Section (ATS) Seminar Series.
 
 [09/24] A paper on decentralized multi-agent reinforcement learning as been accepted by [IEEE/IFIP International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)](https://wiopt24.github.io/) as an invited paper.
 

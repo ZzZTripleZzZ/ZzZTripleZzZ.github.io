@@ -7,6 +7,12 @@ author_profile: true
 
 ## 2025
 
+* Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security
+[[pdf]]()
+<br>
+<u><b>Z. Zhang</b></u>, M. Fang, D. Chen, X. Yang and Y. Liu <br>
+<i>Published in IEEE Wireless Communication </i>, 2025.
+
 * Poisoning Attacks and Defenses to Federated Unlearning
 [[pdf]]()
 <br>

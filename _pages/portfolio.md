@@ -23,4 +23,6 @@ IEEE Global Communication Conference (GLOBECOM) 2024 Workshop
 ## Journal Reviewer
 IEEE Journal on Selected Areas in Communications (JSAC) \\
 IEEE Transactions on Network Science and Engineering (TNSE) \\
+IEEE Transactions on Mobile Computing (TMC) \\
+IEEE Transactions on Vehicular Technology (TVT) \\
 IEEE Transactions on Green Communications and Networking (TGCN)

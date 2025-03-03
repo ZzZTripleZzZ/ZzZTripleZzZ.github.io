@@ -20,7 +20,9 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
-[01/25] A paper on federated unlearning attacks and defenses as been accepted by [ACM The Web Conference](https://www2025.thewebconf.org/).
+[03/25] A paper on digital twin and machine learning synergy has been accepted by [IEEE Wireless Communication](https://www.comsoc.org/publications/magazines/ieee-wireless-communications).
+
+[01/25] A paper on federated unlearning attacks and defenses has been accepted by [ACM The Web Conference](https://www2025.thewebconf.org/).
 
 [01/25] Invited to give a talk about digital network twins at ORNL's Advanced Technologies Section (ATS) Seminar Series.
 

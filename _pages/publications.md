@@ -11,13 +11,13 @@ author_profile: true
 [[pdf]]()
 <br>
 <u><b>Z. Zhang</b></u>, M. Fang, D. Chen, X. Yang and Y. Liu <br>
-<i>Published in IEEE Wireless Communication </i>, 2025.
+<i>Published in IEEE Wireless Communication</i>, 2025.
 
 * Poisoning Attacks and Defenses to Federated Unlearning
 [[pdf]]()
 <br>
 W. Wang, Q. Ma, <u><b>Z. Zhang</b></u>, Y. Liu, Z. Liu and M. Fang <br>
-<i>Published in The Web Conference </i>, 2025.
+<i>Published in The Web Conference</i>, 2025.
 
 
 ## 2024

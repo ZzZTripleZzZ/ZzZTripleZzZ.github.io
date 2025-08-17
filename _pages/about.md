@@ -20,6 +20,9 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
+[08/25] Glad to serve on the Search Advisory Committee for the next Department Head of
+Computer Science in the College of Engineering.
+
 [03/25] A paper on digital twin and machine learning synergy has been accepted by [IEEE Wireless Communication](https://www.comsoc.org/publications/magazines/ieee-wireless-communications).
 
 [01/25] A paper on federated unlearning attacks and defenses has been accepted by [ACM The Web Conference](https://www2025.thewebconf.org/).

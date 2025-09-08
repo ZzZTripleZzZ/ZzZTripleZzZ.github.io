@@ -28,6 +28,7 @@ IEEE International Conference on Communications (ICC) 2024 Workshop \\
 IEEE Global Communication Conference (GLOBECOM) 2024 Workshop
 
 ## Journal Reviewer
+IEEE Transactions on Neural Networks and Learning Systems (TNNLS) \\
 IEEE Transactions on Communications (TCOM) \\
 IEEE Journal on Selected Areas in Communications (JSAC) \\
 Transactions on Information Forensics & Security (TIFS) \\

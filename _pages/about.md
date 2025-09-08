@@ -20,6 +20,10 @@ My research pursuits are rooted in the confluence of wireless networks, machine 
 - **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
 
 ## News
+[09/25] Glad to give a talk at [Digital Twins Workshop for High-Performance Computing@SC25](https://sc25.conference-program.com/session/?sess=sess200). See you in St. Louis!
+
+[09/25] A paper on transferring, merging, and splitting task-oriented network digital twins has been accepted by [MobiWac](https://mobiwac-symposium.org/2025/).
+
 [08/25] Glad to serve on the Search Advisory Committee for the next Department Head of
 Computer Science in the College of Engineering.
 

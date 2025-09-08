@@ -7,6 +7,12 @@ author_profile: true
 
 ## 2025
 
+* On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins
+[[pdf]]()
+<br>
+<u><b>Z. Zhang</b></u>, M. Fang, M. Chen and Y. Liu <br>
+<i>Published in International Symposium on Mobility Management and Wireless Access (MobiWac)</i>, 2025.
+
 * Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security
 [[pdf]]()
 <br>

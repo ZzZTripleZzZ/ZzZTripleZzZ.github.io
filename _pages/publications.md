@@ -7,6 +7,12 @@ author_profile: true
 
 ## 2025
 
+* Digital Network Twins for Next-Generation Wireless: Creation, Optimization, and Challenges
+[[pdf]]()
+<br>
+<u><b>Z. Zhang</b></u>, Z. Peng, H. Yu, M. Chen and Y. Liu <br>
+<i>Published in IEEE Network Magazine</i>, 2025.
+
 * On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins
 [[pdf]]()
 <br>

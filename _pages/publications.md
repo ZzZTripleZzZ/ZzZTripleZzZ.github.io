@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+## 2026
+
+* INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Reasoning
+[[pdf]]()
+<br>
+D. Chen, <u><b>Z. Zhang</b></u>, Y. Liu, and X. Yang <br>
+<i>Published in IEEE Intelligent Vehicles Symposium Workshops</i>, 2026.
+
+
 ## 2025
 
 * Digital Network Twins for Next-Generation Wireless: Creation, Optimization, and Challenges

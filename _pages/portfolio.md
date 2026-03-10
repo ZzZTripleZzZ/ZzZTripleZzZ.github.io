@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Award
+R&D 100 Award for ExaDigiT Digital Twin Framework \\
 IFIP/IEEE Networking Conference Best Paper Award Runner-up \\
 NCSU Graduate Merit Award \\
 IFIP/IEEE NETWORKING 2024 student travel grant

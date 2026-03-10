@@ -9,18 +9,22 @@ redirect_from:
 
 ## Short Bibliography
 
-I'm currently a Ph.D. student in the Department of Computer Science at [North Carolina State University](https://www.ncsu.edu/), working with Professor [Yuchen Liu](https://nicelab.us/). I obtained my BS and MS degree both from the Department of Electrical and Computer Engineering at [The Ohio State University](https://www.osu.edu/), supervised by Professor [Jia (Kevin) Liu](https://kevinliu-osu.github.io/). I am broadly interested in building trustworthy and intelligent wireless netowrk and communications with advanced techniques, including federated learning, digital twins, reinforcement learning, etc.
+I'm currently a Ph.D. student in the Department of Computer Science at [North Carolina State University](https://www.ncsu.edu/), working with Professor [Yuchen Liu](https://nicelab.us/). I obtained my BS and MS degree both from the Department of Electrical and Computer Engineering at [The Ohio State University](https://www.osu.edu/), supervised by Professor [Jia (Kevin) Liu](https://kevinliu-osu.github.io/). My research focuses on network digital twins for High-Performance Computing (HPC) and wireless systems, with a particular emphasis on system mapping, physical-digital synchronization, and security. I am broadly interested in building trustworthy and intelligent network architectures using advanced techniques, including federated learning, reinforcement learning, and robust optimization.
 
 ## Research Interests
 
-My research pursuits are rooted in the confluence of wireless networks, machine learning, and mobile computing, each bearing the potential to profoundly impact modern technological landscapes. In the sphere of networking and systems, I delve into exploring wireless technologies, envisioning new network architectures, developing protocols, investigating digital twins, and fortifying security measures. Transitioning into machine learning, my focus broadens to harnessing generative AI, fostering self-awareness systems, and employing data analytics to enhance networking, sensing, and security paradigms. The realm of mobile computing beckons with opportunities in infrastructure mobility, employing Unmanned Aerial Vehicles (UAVs), and orchestrating robotic networked systems. 
+My research is situated at the intersection of High-Performance Computing (HPC), network systems, and machine learning, aiming to develop reliable and secure digital twin frameworks for next-generation infrastructures. In the sphere of networking and systems, I delve into exascale digital twins, topology-aware network representation, and the synchronization between physical entities and their digital counterparts. A significant portion of my work is dedicated to Security and Robustness, where I investigate defense strategies against adversarial behaviors, such as poisoning attacks in federated learning and distributed network systems. My focus also extends to mobile computing and autonomous systems, leveraging twin-aware reinforcement learning to secure vehicle networks and robotic communication paradigms.
 
-- **Network Digital Twins: Mapping NextGen Wireless Networks into Digital Reality**
-- **Trustworthy Distributed Mapping for Network Digital Twins**
-- **Design of Predictive Mobile and Wireless Network Systems Using Machine Learning**
+- **Exascale & Wireless Digital Twins: Mapping, Synchronization, and Performance Modeling**
+- **Security and Robustness: Defending Distributed Network Systems against Adversarial Attacks**
+- **Predictive Network Analysis: Data-Driven Optimization for HPC and Wireless Infrastructures**
 
 ## News
+[03/26] A paper on enhancing autonomous driving safety through Vision-Language Models has been accepted by [IEEE Intelligent Vehicles Symposium Workshops](https://ieee-iv.org/2026/).
+
 [10/25] A paper on next generation wireless network digital twins has been accepted by [IEEE Network Magazine](https://www.comsoc.org/publications/magazines/ieee-network).
+
+[09/56] Thrilled to be a contributor to the [ExaDIGIT](https://code.ornl.gov/exadigit) project, which has been honored with a prestigious 2025 [R&D 100 Award](https://www.rdworldonline.com/revealing-the-2025-rd-100-awards-winners/)!
 
 [09/25] Glad to give a talk at [Digital Twins Workshop for High-Performance Computing@SC25](https://sc25.conference-program.com/session/?sess=sess200). See you in St. Louis!
 

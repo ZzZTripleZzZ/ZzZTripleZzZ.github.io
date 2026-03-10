@@ -1,4 +1,37 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- AOS (Animate on Scroll) init -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 500,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 60
+  });
+
+  // Auto-inject data-aos on key page elements that don't already have it
+  document.addEventListener('DOMContentLoaded', function () {
+    var content = document.querySelector('.page__content');
+    if (!content) return;
+
+    // Headings
+    content.querySelectorAll('h2, h3').forEach(function (el) {
+      if (!el.dataset.aos) { el.dataset.aos = 'fade-up'; el.dataset.aosDuration = '400'; }
+    });
+
+    // Cards and timeline items — let their own data-aos attributes take effect
+    // Paragraphs in intro sections
+    var paras = content.querySelectorAll('p');
+    paras.forEach(function (el, i) {
+      if (!el.dataset.aos && !el.closest('.news-item') && !el.closest('.pub-card') &&
+          !el.closest('.talk-card') && !el.closest('.exp-item') && !el.closest('.research-card')) {
+        el.dataset.aos = 'fade-up';
+        el.dataset.aosDelay = Math.min(i * 40, 200);
+      }
+    });
+  });
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

@@ -24,7 +24,7 @@ My research is situated at the intersection of High-Performance Computing (HPC),
 
 [10/25] A paper on next generation wireless network digital twins has been accepted by [IEEE Network Magazine](https://www.comsoc.org/publications/magazines/ieee-network).
 
-[09/56] Thrilled to be a contributor to the [ExaDigiT](https://code.ornl.gov/exadigit) project, which has been honored with a prestigious 2025 [R&D 100 Award](https://www.rdworldonline.com/revealing-the-2025-rd-100-awards-winners/)!
+[09/56] Thrilled to be a contributor to the [ExaDIGIT](https://code.ornl.gov/exadigit) project, which has been honored with a prestigious 2025 [R&D 100 Award](https://www.rdworldonline.com/revealing-the-2025-rd-100-awards-winners/)!
 
 [09/25] Glad to give a talk at [Digital Twins Workshop for High-Performance Computing@SC25](https://sc25.conference-program.com/session/?sess=sess200). See you in St. Louis!
 

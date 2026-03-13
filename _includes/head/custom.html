@@ -2,19 +2,6 @@
 
 <!-- start custom head snippets -->
 
-<!-- Dark mode: apply saved theme before first paint to prevent flash -->
-<script>
-(function(){
-  var t = localStorage.getItem('zz-theme') ||
-    (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', t);
-})();
-</script>
-
-<!-- FAVICON PLACEHOLDERS — replace files under /assets/images/ with your own:
-     favicon.ico, favicon-16x16.png, favicon-32x32.png, favicon-96x96.png,
-     apple-touch-icon.png (180x180), android-chrome-192x192.png, mstile-144x144.png
-     Currently pointing to /images/ for backwards compatibility. -->
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">

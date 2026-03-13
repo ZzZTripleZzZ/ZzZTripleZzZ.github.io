@@ -12,6 +12,9 @@ main:
   - title: "Services"
     url: /portfolio/
         
+  - title: "Beyond Research"
+    url: /beyond/
+
   # - title: "Blog Posts"
   #   url: /year-archive/
     

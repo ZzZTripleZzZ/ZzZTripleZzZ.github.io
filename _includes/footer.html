@@ -1,5 +1,26 @@
 {% include base_path %}
 
+<!-- Global Visitor Globe
+     To activate: paste your RevolverMaps or Clustrmaps embed <script> tag
+     inside #globe-container below and remove the placeholder text div.
+
+     RevolverMaps example:
+       <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=YOUR_ID&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+
+     Clustrmaps example:
+       <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=YOUR_ID'></script>
+-->
+<div class="globe-section">
+  <span class="globe-section__label">Visitor Map</span>
+  <div id="globe-container">
+    <!-- PASTE YOUR REVOLVERMAP / CLUSTRMAPS SCRIPT HERE -->
+    <div class="globe-placeholder-text">
+      <i class="fas fa-globe" aria-hidden="true"></i>
+      Visitor globe coming soon
+    </div>
+  </div>
+</div>
+
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
   <ul class="social-icons">

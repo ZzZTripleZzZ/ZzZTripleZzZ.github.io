@@ -2,9 +2,9 @@
   title: "Research Intern"
   institution: "Oak Ridge National Laboratory"
   location: "Oak Ridge, TN"
-  body: "Mentor: [Wes Brewer](https://www.ornl.gov/staff-profile/wes-h-brewer), [Workflows and Ecosystem Services Group](https://www.ornl.gov/group/workflows-and-ecosystem-services)"
-  link: "https://code.ornl.gov/exadigit"
-  linkText: "ExaDigiT"
+  body: "Mentor: [Wes Brewer](https://www.ornl.gov/staff-profile/wes-h-brewer) &middot; Project: [ExaDigiT](https://code.ornl.gov/exadigit)"
+  link: "https://www.ornl.gov/group/workflows-and-ecosystem-services"
+  linkText: "Workflows and Ecosystem Services Group"
   present: true
   highlight: true
 
@@ -12,7 +12,7 @@
   title: "Ph.D. in Computer Science"
   institution: "NC State University"
   location: "Raleigh, NC"
-  body: "Advisor: [Prof. Yuchen Liu](https://nicelab.us/), [NICE Lab](https://nicelab.us/)"
+  body: "Advisor: [Prof. Yuchen Liu](https://nicelab.us/)"
   link: "https://nicelab.us/"
   linkText: "NICE Lab"
   present: true
@@ -22,9 +22,9 @@
   title: "M.S. in Electrical and Computer Engineering"
   institution: "The Ohio State University"
   location: "Columbus, OH"
-  body: "Advisor: [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/), [Networked Intelligence Research Group](https://kevinliu-osu.github.io/)"
+  body: "Advisor: [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/)"
   link: "https://kevinliu-osu.github.io/"
-  linkText: "Prof. Jia (Kevin) Liu"
+  linkText: "Networked Intelligence Research Group"
   present: false
   highlight: false
 

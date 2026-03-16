@@ -773,17 +773,13 @@ body,
   border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
-  background: #e8eaf6;
+  background: #ffffff;
   box-shadow: 0 1px 6px rgba(0,0,0,0.05);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.75rem;
   min-height: 180px;
-}
-
-.dark .visitor-map-wrap {
-  background: #1e2035;
 }
 
 .visitor-map-note {

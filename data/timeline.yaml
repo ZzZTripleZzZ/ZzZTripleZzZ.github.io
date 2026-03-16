@@ -2,7 +2,7 @@
   title: "Research Intern"
   institution: "Oak Ridge National Laboratory"
   location: "Oak Ridge, TN"
-  body: "Research intern in [Workflows and Ecosystem Services Group](https://www.ornl.gov/group/workflows-and-ecosystem-services), mentored by [Wes Brewer](https://www.ornl.gov/staff-profile/wes-h-brewer). Led core technical development and experimental evaluations on exascale digital twins for liquid-cooled supercomputers within [ExaDigiT](https://code.ornl.gov/exadigit). Primary presenter and technical lead in recurring ORNL project meetings. Contributed to a submission at SC25 and internal ExaDigiT milestones. Recipient of 2025 R&D 100 Award."
+  body: "Mentor: [Wes Brewer](https://www.ornl.gov/staff-profile/wes-h-brewer), [Workflows and Ecosystem Services Group](https://www.ornl.gov/group/workflows-and-ecosystem-services)"
   link: "https://code.ornl.gov/exadigit"
   linkText: "ExaDigiT"
   present: true
@@ -10,9 +10,9 @@
 
 - date: "2023 -- Present"
   title: "Ph.D. in Computer Science"
-  institution: "NC State University, NICE Lab"
+  institution: "NC State University"
   location: "Raleigh, NC"
-  body: "Doctoral research under Prof. Yuchen Liu. Research focus: network digital twins for HPC and wireless systems, federated learning security, and reinforcement learning for closed-loop network control. Co-mentored two M.S. students."
+  body: "Advisor: [Prof. Yuchen Liu](https://nicelab.us/), [NICE Lab](https://nicelab.us/)"
   link: "https://nicelab.us/"
   linkText: "NICE Lab"
   present: true
@@ -22,7 +22,7 @@
   title: "M.S. in Electrical and Computer Engineering"
   institution: "The Ohio State University"
   location: "Columbus, OH"
-  body: "Graduate research under Prof. Jia (Kevin) Liu. Thesis: Communication Efficiency and Security for Multi-Agent Reinforcement Learning --- investigated Byzantine-robust and communication-efficient algorithms for decentralized MARL."
+  body: "Advisor: [Prof. Jia (Kevin) Liu](https://kevinliu-osu.github.io/), [Networked Intelligence Research Group](https://kevinliu-osu.github.io/)"
   link: "https://kevinliu-osu.github.io/"
   linkText: "Prof. Jia (Kevin) Liu"
   present: false
@@ -32,7 +32,7 @@
   title: "B.S. in Electrical and Computer Engineering"
   institution: "The Ohio State University"
   location: "Columbus, OH"
-  body: "Undergraduate studies in ECE at Ohio State, with focus on signals, systems, and communications."
+  body: ""
   link: ""
   linkText: ""
   present: false

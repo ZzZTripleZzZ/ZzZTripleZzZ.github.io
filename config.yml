@@ -90,8 +90,6 @@ params:
         hiddenInSingle: true
     label:
       text: "Zifan Zhang"
-      icon: /site-logo.png
-      iconHeight: 28
 
 markup:
     goldmark:

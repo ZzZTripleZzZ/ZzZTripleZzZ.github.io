@@ -44,9 +44,18 @@
           {{- if .Params.award }}
           <span class="badge badge-award">{{ .Params.award }}</span>
           {{- end }}
-          {{- if gt (.Params.citations | default 0) 0 }}
-          <span class="badge badge-citations" title="Cited by {{ .Params.citations }} (Google Scholar)">
-            {{ .Params.citations }} citations
+          {{- $title := .Title }}
+          {{- $citationCount := 0 }}
+          {{- if $citations }}
+            {{- range $key, $val := $citations.papers }}
+              {{- if eq $key $title }}
+                {{- $citationCount = $val }}
+              {{- end }}
+            {{- end }}
+          {{- end }}
+          {{- if gt $citationCount 0 }}
+          <span class="badge badge-citations" title="Cited by {{ $citationCount }} (Google Scholar)">
+            {{ $citationCount }} citations
           </span>
           {{- end }}
         </div>

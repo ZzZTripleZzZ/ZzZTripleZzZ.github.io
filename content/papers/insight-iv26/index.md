@@ -1,5 +1,5 @@
 ---
-title: "INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Reasoning"
+title: "INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Edge Case Evaluation"
 date: 2026-01-01
 tags: ["Autonomous Driving", "Vision-Language Models", "Safety"]
 author: ["D. Chen", "Z. Zhang", "Y. Liu", "X. Yang"]

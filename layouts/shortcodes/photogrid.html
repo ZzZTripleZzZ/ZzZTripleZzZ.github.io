@@ -1,0 +1,19 @@
+{{- $photos := slice
+  (dict "src" "/photos/L1000729.jpg"      "alt" "")
+  (dict "src" "/photos/IMG_0595.jpg"      "alt" "")
+  (dict "src" "/photos/IMG_0902.jpg"      "alt" "")
+  (dict "src" "/photos/photo_aug2025.jpg" "alt" "")
+  (dict "src" "/photos/snapseed2.jpg"     "alt" "")
+  (dict "src" "/photos/snapseed.jpg"      "alt" "")
+  (dict "src" "/photos/XNHBE4390.jpg"     "alt" "")
+  (dict "src" "/photos/PPYL6149.jpg"      "alt" "")
+  (dict "src" "/photos/IMG_4309.jpg"      "alt" "")
+  (dict "src" "/photos/IMG_6091.jpg"      "alt" "")
+}}
+<div class="photo-grid" role="list">
+  {{- range $photos }}
+  <div class="photo-item" role="listitem">
+    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+  </div>
+  {{- end }}
+</div>

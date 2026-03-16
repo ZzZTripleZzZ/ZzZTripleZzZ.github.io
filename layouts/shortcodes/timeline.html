@@ -1,0 +1,17 @@
+{{ $items := site.Data.timeline }}
+<div class="timeline" role="list">
+  {{ range $items }}
+  <div class="timeline-item{{ if .highlight }} timeline-item--highlight{{ end }}" role="listitem">
+    <div class="timeline-marker{{ if .present }} timeline-marker--present{{ else }} timeline-marker--past{{ end }}{{ if .highlight }} timeline-marker--highlight{{ end }}"></div>
+    <div class="timeline-content">
+      <div class="timeline-date{{ if .present }} timeline-date--present{{ else }} timeline-date--past{{ end }}">{{ .date }}</div>
+      <h3 class="timeline-title">{{ .title }}</h3>
+      <div class="timeline-institution">
+        {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .linkText }}</a>,{{ end }}
+        {{ .institution }} &middot; {{ .location }}
+      </div>
+      <p class="timeline-body">{{ .body | markdownify }}</p>
+    </div>
+  </div>
+  {{ end }}
+</div>

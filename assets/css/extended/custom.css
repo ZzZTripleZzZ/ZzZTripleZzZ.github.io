@@ -1,0 +1,845 @@
+/* ==========================================================
+   Custom styles for zifanzhang.com
+   ========================================================== */
+
+/* ----------------------------------------------------------
+   0. TYPOGRAPHY — Inter body, Space Grotesk headings
+   ---------------------------------------------------------- */
+body, p, li, span, a, button, input, select, textarea {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.entry-header h2,
+.papers-year-heading,
+.timeline-title,
+.experience-title {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* ----------------------------------------------------------
+   0b. GLOBAL BACKGROUND — dot grid on ALL pages
+   Override PaperMod's body and .list background shorthand.
+   PaperMod sets:  body { background: var(--theme) }
+                   .list { background: var(--code-bg) }
+   We override both to preserve the background color but
+   add our background-image on top.
+   ---------------------------------------------------------- */
+body,
+.list {
+  background-color: #f9fafb;
+  background-image: radial-gradient(circle, rgba(99,102,241,0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+}
+
+.dark body,
+.dark.list,
+.dark .list {
+  background-color: rgb(29, 30, 32);
+  background-image: radial-gradient(circle, rgba(165,180,252,0.10) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+}
+
+/* Card backgrounds stay solid so content is readable */
+.post-entry,
+.paper-entry,
+.experience-entry,
+.bibtex-block,
+.news-ticker-wrap,
+.scholar-profile-bar {
+  background: var(--entry);
+}
+
+/* ----------------------------------------------------------
+   0c. PROFILE / HOMEPAGE VISUAL POLISH
+   ---------------------------------------------------------- */
+
+/* Gradient name on homepage profile */
+.profile_inner h1 {
+  background: linear-gradient(135deg, #4f46e5 0%, #2563eb 50%, #0891b2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.dark .profile_inner h1 {
+  background: linear-gradient(135deg, #a5b4fc 0%, #60a5fa 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Profile subtitle */
+.profile_inner span {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--secondary);
+}
+
+/* Profile buttons */
+.profile_inner .button {
+  border: 1.5px solid #4f46e5 !important;
+  color: #4f46e5 !important;
+  border-radius: 8px !important;
+  font-weight: 500;
+  transition: background 0.18s, color 0.18s !important;
+  background: transparent !important;
+}
+
+.profile_inner .button:hover {
+  background: #4f46e5 !important;
+  color: #fff !important;
+}
+
+.dark .profile_inner .button {
+  border-color: #818cf8 !important;
+  color: #818cf8 !important;
+}
+
+.dark .profile_inner .button:hover {
+  background: #818cf8 !important;
+  color: #1d1d2e !important;
+}
+
+/* ----------------------------------------------------------
+   0d. PAGE HEADER + CONTENT HEADING ACCENTS
+   ---------------------------------------------------------- */
+.page-header h1,
+.post-header .post-title {
+  position: relative;
+}
+
+/* Accent left-bar on in-content h2 */
+.post-content h2 {
+  position: relative;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.post-content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 3px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #4f46e5, #0891b2);
+}
+
+/* Links inside post content */
+.post-content a {
+  color: #2563eb;
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+
+.post-content a:hover {
+  color: #1d4ed8;
+}
+
+.dark .post-content a {
+  color: #818cf8;
+}
+
+.dark .post-content a:hover {
+  color: #a5b4fc;
+}
+
+/* Nav link hover accent */
+.nav a:hover {
+  color: #4f46e5 !important;
+}
+
+.dark .nav a:hover {
+  color: #818cf8 !important;
+}
+
+/* ----------------------------------------------------------
+   0e. HOMEPAGE CONTENT (below profile)
+   ---------------------------------------------------------- */
+.home-content {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ----------------------------------------------------------
+   1. NEWS TICKER
+   ---------------------------------------------------------- */
+.news-section {
+  margin: 2rem 0 1.5rem;
+}
+
+.news-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
+.news-ticker-wrap {
+  position: relative;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--entry);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.news-ticker-wrap::-webkit-scrollbar {
+  width: 5px;
+}
+.news-ticker-wrap::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+.news-ticker {
+  display: flex;
+  flex-direction: column;
+  /* No auto-scroll: user scrolls manually */
+}
+
+.news-item {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.news-date {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: #4f46e5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  min-width: 3.8rem;
+}
+
+.dark .news-date {
+  color: #818cf8;
+}
+
+.news-text a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.news-text a:hover {
+  color: #1d4ed8;
+}
+
+.dark .news-text a {
+  color: #818cf8;
+}
+
+/* ----------------------------------------------------------
+   2. PAPERS LIST
+   ---------------------------------------------------------- */
+.scholar-profile-bar {
+  margin-bottom: 1.8rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--entry);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.scholar-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.scholar-btn {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  background: #4f46e5;
+  color: #fff !important;
+  border-radius: 7px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.scholar-btn:hover {
+  background: #4338ca;
+  color: #fff !important;
+}
+
+.scholar-stat {
+  font-size: 0.88rem;
+  color: var(--primary);
+}
+
+.scholar-updated {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  margin-left: auto;
+}
+
+.papers-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.papers-year-group {
+  margin-bottom: 0.5rem;
+}
+
+.papers-year-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 2rem 0 0.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.paper-entry {
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--entry);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.18s, border-color 0.18s;
+}
+
+.paper-entry:hover {
+  border-color: #a5b4fc;
+  box-shadow: 0 3px 12px rgba(99,102,241,0.1);
+}
+
+.paper-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.paper-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.4;
+}
+
+.paper-title a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.paper-title a:hover {
+  color: #4f46e5;
+}
+
+.dark .paper-title a:hover {
+  color: #818cf8;
+}
+
+.paper-badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 1.7;
+}
+
+.badge-award {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+}
+
+.dark .badge-award {
+  background: #3a2e00;
+  color: #fcd34d;
+  border-color: #92400e;
+}
+
+.badge-citations {
+  background: var(--entry);
+  color: var(--secondary);
+  border: 1px solid var(--border);
+}
+
+.paper-meta {
+  font-size: 0.84rem;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem;
+}
+
+.paper-venue-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.paper-authors { flex-shrink: 0; }
+.paper-authors::after { content: ' \2014 '; }
+.paper-venue { font-style: italic; }
+
+.badge-type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.7rem;
+  padding: 1px 7px;
+  border-radius: 20px;
+}
+
+.badge-type--journal  { background:#dbeafe; color:#1e40af; border:1px solid #93c5fd; }
+.badge-type--conference { background:#dcfce7; color:#166534; border:1px solid #86efac; }
+.badge-type--workshop { background:#fef9c3; color:#854d0e; border:1px solid #fde047; }
+.badge-type--thesis   { background:#f3e8ff; color:#6b21a8; border:1px solid #d8b4fe; }
+
+.dark .badge-type--journal  { background:#1e3a5f; color:#93c5fd; border-color:#1e40af; }
+.dark .badge-type--conference { background:#14532d; color:#86efac; border-color:#166534; }
+.dark .badge-type--workshop { background:#3b2a00; color:#fde047; border-color:#854d0e; }
+.dark .badge-type--thesis   { background:#3b1a5c; color:#d8b4fe; border-color:#6b21a8; }
+
+.paper-tldr {
+  font-size: 0.87rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.tldr-label {
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: #4f46e5;
+  margin-right: 0.45rem;
+  text-transform: uppercase;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.dark .tldr-label { color: #818cf8; }
+
+.paper-links {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.paper-link {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 0.82rem;
+  font-family: 'Space Grotesk', monospace;
+  color: var(--primary);
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  transition: background 0.14s, color 0.14s, border-color 0.14s;
+}
+
+.paper-link:hover, .bibtex-btn:hover {
+  background: #4f46e5;
+  color: #fff;
+  border-color: #4f46e5;
+}
+
+.bibtex-btn { font-family: 'Space Grotesk', monospace; }
+
+.bibtex-block {
+  margin-top: 0.7rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bibtex-content {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  font-size: 0.79rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  white-space: pre;
+  background: transparent;
+  border: none;
+}
+
+.copy-btn {
+  display: block;
+  width: 100%;
+  padding: 0.45rem;
+  font-size: 0.8rem;
+  background: var(--border);
+  color: var(--primary);
+  border: none;
+  border-top: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.copy-btn:hover {
+  background: #4f46e5;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------
+   3. EXPERIENCE LIST
+   ---------------------------------------------------------- */
+.experience-list { display: flex; flex-direction: column; }
+
+.experience-entry {
+  position: relative;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.experience-header { margin-bottom: 0.3rem; }
+
+.experience-title-wrap {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.experience-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.experience-title a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.experience-title a:hover {
+  color: #4f46e5;
+}
+
+.experience-venue {
+  font-size: 0.84rem;
+  color: var(--secondary);
+  font-style: italic;
+}
+
+.experience-desc {
+  font-size: 0.87rem;
+  color: var(--secondary);
+  margin: 0.2rem 0 0;
+  line-height: 1.55;
+}
+
+.experience-summary { display: none; }
+
+/* ----------------------------------------------------------
+   4. PROJECT TIMELINE
+   ---------------------------------------------------------- */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, #4f46e5, #0891b2);
+  opacity: 0.35;
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -1.75rem;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid var(--theme);
+  z-index: 1;
+}
+
+.timeline-marker--present {
+  background: #f97316;
+  box-shadow: 0 0 0 2px #f97316;
+}
+
+.timeline-marker--past {
+  background: #6366f1;
+  box-shadow: 0 0 0 2px #6366f1;
+}
+
+/* Highlight overrides (R&D 100 / special) */
+.timeline-marker--highlight.timeline-marker--present {
+  background: #f97316;
+  box-shadow: 0 0 0 3px #f97316, 0 0 10px rgba(249,115,22,0.4);
+}
+
+.timeline-content { padding-left: 0.5rem; }
+
+.timeline-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.03em;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.timeline-date--present {
+  color: #f97316;
+}
+
+.timeline-date--past {
+  color: #6366f1;
+}
+
+.dark .timeline-date--present { color: #fb923c; }
+.dark .timeline-date--past    { color: #818cf8; }
+
+.timeline-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: var(--primary);
+}
+
+.timeline-institution {
+  font-size: 0.84rem;
+  color: var(--secondary);
+  margin-bottom: 0.35rem;
+}
+
+.timeline-institution a {
+  color: var(--secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.timeline-body {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--primary);
+  margin: 0;
+}
+
+.timeline-body a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ----------------------------------------------------------
+   5. CV PAGE
+   ---------------------------------------------------------- */
+.cv-download-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  background: #2563eb;
+  color: #ffffff !important;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 4px rgba(37,99,235,0.3);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.cv-download-btn:hover {
+  background: #1d4ed8;
+  color: #ffffff !important;
+  box-shadow: 0 3px 12px rgba(37,99,235,0.4);
+}
+
+@media print {
+  .cv-download-bar, header, footer, .pet-container, nav { display: none !important; }
+  body { font-size: 11pt; }
+  a[href]::after { content: none; }
+}
+
+/* ----------------------------------------------------------
+   6. LIFE / PHOTO GRID
+   ---------------------------------------------------------- */
+.photo-grid {
+  columns: 3;
+  column-gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.photo-item {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.photo-item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.photo-item img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) { .photo-grid { columns: 2; } }
+@media (max-width: 480px) { .photo-grid { columns: 1; } }
+
+/* ----------------------------------------------------------
+   7. VISITOR MAP
+   ---------------------------------------------------------- */
+.visitor-map-section {
+  margin: 2rem 0 1rem;
+}
+
+.visitor-map-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
+.visitor-map-wrap {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--entry);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.visitor-map-note {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.visitor-map-note a {
+  color: var(--secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ----------------------------------------------------------
+   8. TALKS LIST
+   ---------------------------------------------------------- */
+.talks-list { display: flex; flex-direction: column; }
+
+.talk-entry {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.talk-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  line-height: 1.4;
+}
+
+.talk-title a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.talk-title a:hover { color: #4f46e5; }
+
+.talk-venue {
+  font-size: 0.84rem;
+  color: var(--secondary);
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+.talk-desc {
+  font-size: 0.87rem;
+  color: var(--secondary);
+  line-height: 1.55;
+}
+
+/* Widen papers and services pages */
+body:has(.papers-list) .main,
+body:has(.papers-list) .post-content {
+  max-width: 860px;
+}
+
+/* ----------------------------------------------------------
+   9. RESPONSIVE POLISH
+   ---------------------------------------------------------- */
+@media (max-width: 600px) {
+  .scholar-stats { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .scholar-updated { margin-left: 0; }
+  .paper-header { flex-direction: column; }
+  .paper-badges { padding-top: 0; }
+  .profile_inner h1 { font-size: 1.6rem; }
+}

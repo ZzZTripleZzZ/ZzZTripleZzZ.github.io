@@ -1,0 +1,39 @@
+- date: "2025 -- Present"
+  title: "Research Intern"
+  institution: "Oak Ridge National Laboratory"
+  location: "Oak Ridge, TN"
+  body: "Research intern in the ExaDIGIT project under Dr. Wes Brewer. Led core technical development and experimental evaluations on exascale digital twins for liquid-cooled supercomputers. Primary presenter and technical lead in recurring ORNL project meetings. Contributed to a submission at SC25 and internal ExaDIGIT milestones. Recipient of the 2025 R&D 100 Award."
+  link: "https://code.ornl.gov/exadigit"
+  linkText: "ExaDIGIT"
+  present: true
+  highlight: true
+
+- date: "2023 -- Present"
+  title: "Ph.D. in Computer Science"
+  institution: "NC State University, NICE Lab"
+  location: "Raleigh, NC"
+  body: "Doctoral research under Prof. Yuchen Liu. Research focus: network digital twins for HPC and wireless systems, federated learning security, and reinforcement learning for closed-loop network control. Co-mentored two M.S. students."
+  link: "https://nicelab.us/"
+  linkText: "NICE Lab"
+  present: true
+  highlight: false
+
+- date: "2021 -- 2023"
+  title: "M.S. in Electrical and Computer Engineering"
+  institution: "The Ohio State University"
+  location: "Columbus, OH"
+  body: "Graduate research under Prof. Jia (Kevin) Liu. Thesis: Communication Efficiency and Security for Multi-Agent Reinforcement Learning --- investigated Byzantine-robust and communication-efficient algorithms for decentralized MARL."
+  link: "https://kevinliu-osu.github.io/"
+  linkText: "Prof. Jia (Kevin) Liu"
+  present: false
+  highlight: false
+
+- date: "2018 -- 2021"
+  title: "B.S. in Electrical and Computer Engineering"
+  institution: "The Ohio State University"
+  location: "Columbus, OH"
+  body: "Undergraduate studies in ECE at Ohio State, with focus on signals, systems, and communications."
+  link: ""
+  linkText: ""
+  present: false
+  highlight: false

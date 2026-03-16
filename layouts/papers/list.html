@@ -1,0 +1,124 @@
+{{- define "main" }}
+
+{{- $citations := site.Data.citations }}
+
+<header class="page-header">
+  <h1>Papers</h1>
+</header>
+
+<div class="scholar-profile-bar">
+  <div class="scholar-stats">
+    <a href="https://scholar.google.com/citations?user=tPkUfx4AAAAJ" target="_blank" rel="noopener" class="scholar-btn">
+      Google Scholar Profile
+    </a>
+    {{- if $citations }}
+    <span class="scholar-stat">
+      <strong>{{ $citations.total_citations }}</strong> citations
+    </span>
+    <span class="scholar-stat">
+      h-index <strong>{{ $citations.h_index }}</strong>
+    </span>
+    <span class="scholar-stat">
+      i10-index <strong>{{ $citations.i10_index }}</strong>
+    </span>
+    <span class="scholar-updated">Updated {{ $citations.last_updated }}</span>
+    {{- end }}
+  </div>
+</div>
+
+{{- $pages := .Pages.ByDate.Reverse }}
+{{- $grouped := $pages.GroupByDate "2006" }}
+
+<div class="papers-list">
+{{- range $grouped }}
+  <div class="papers-year-group">
+    <h2 class="papers-year-heading">{{ .Key }}</h2>
+
+    {{- range .Pages }}
+    <article class="paper-entry">
+      <div class="paper-header">
+        <h3 class="paper-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <div class="paper-badges">
+          {{- if .Params.award }}
+          <span class="badge badge-award">{{ .Params.award }}</span>
+          {{- end }}
+          {{- if gt (.Params.citations | default 0) 0 }}
+          <span class="badge badge-citations" title="Cited by {{ .Params.citations }} (Google Scholar)">
+            {{ .Params.citations }} citations
+          </span>
+          {{- end }}
+        </div>
+      </div>
+
+      <div class="paper-meta">
+        <span class="paper-authors">{{ delimit .Params.author ", " }}</span>
+        <span class="paper-venue-wrap">
+          <span class="paper-venue">{{ .Params.venueShort }}</span>
+          {{- if .Params.papertype }}
+          <span class="badge badge-type badge-type--{{ .Params.papertype | lower }}">{{ .Params.papertype }}</span>
+          {{- end }}
+        </span>
+      </div>
+
+      {{- if .Params.tldr }}
+      <div class="paper-tldr">
+        <span class="tldr-label">TL;DR</span>
+        <span class="tldr-text">{{ .Params.tldr }}</span>
+      </div>
+      {{- end }}
+
+      <div class="paper-links">
+        {{- if .Params.pdf }}
+        <a href="{{ .Params.pdf }}" target="_blank" rel="noopener" class="paper-link">[PDF]</a>
+        {{- end }}
+        {{- if .Params.arxiv }}
+        <a href="{{ .Params.arxiv }}" target="_blank" rel="noopener" class="paper-link">[arXiv]</a>
+        {{- end }}
+        {{- if .Params.bibtex }}
+        <button class="paper-link bibtex-btn" onclick="toggleBibtex('bibtex-{{ .File.UniqueID }}')" aria-expanded="false">
+          [Cite]
+        </button>
+        {{- end }}
+      </div>
+
+      {{- if .Params.bibtex }}
+      <div class="bibtex-block" id="bibtex-{{ .File.UniqueID }}" hidden>
+        <pre class="bibtex-content">{{ .Params.bibtex }}</pre>
+        <button class="copy-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+      </div>
+      {{- end }}
+
+    </article>
+    {{- end }}
+  </div>
+{{- end }}
+</div>
+
+<script>
+function toggleBibtex(id) {
+  var block = document.getElementById(id);
+  if (!block) return;
+  var hidden = block.hidden;
+  block.hidden = !hidden;
+  var btn = block.previousElementSibling ? block.previousElementSibling.querySelector('.bibtex-btn') : null;
+  if (!btn) {
+    // walk back to find the links div
+    var el = block;
+    while (el && !el.classList.contains('paper-links')) el = el.previousElementSibling;
+    if (el) btn = el.querySelector('.bibtex-btn');
+  }
+  if (btn) btn.setAttribute('aria-expanded', hidden ? 'true' : 'false');
+}
+function copyBibtex(btn) {
+  var pre = btn.previousElementSibling;
+  navigator.clipboard.writeText(pre.textContent.trim()).then(function() {
+    var orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    setTimeout(function() { btn.textContent = orig; }, 2000);
+  });
+}
+</script>
+
+{{- end }}

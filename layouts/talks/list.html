@@ -1,0 +1,29 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+
+{{- $pages := .Pages.ByDate.Reverse }}
+
+<div class="talks-list">
+  {{- range $pages }}
+  <article class="talk-entry">
+    <h2 class="talk-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    {{- if .Params.venue }}
+    <div class="talk-venue">{{ .Params.venue }}</div>
+    {{- end }}
+    {{- if .Description }}
+    <p class="talk-desc">{{ .Description }}</p>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+
+{{- end }}

@@ -1,0 +1,104 @@
+baseURL: "https://zifanzhang.com/"
+title: Zifan Zhang
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: Talks
+          url: talks/
+          weight: 2
+        - name: Timeline
+          url: timeline/
+          weight: 3
+        - name: Services
+          url: services/
+          weight: 4
+        - name: CV
+          url: cv/
+          weight: 5
+        - name: Life
+          url: life/
+          weight: 6
+
+params:
+    description: "Zifan Zhang is a Ph.D. student in Computer Science at NC State University. His research focuses on network digital twins for HPC and wireless systems, federated learning security, and intelligent network architectures."
+    author: Zifan Zhang
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: auto
+    hideFooter: false
+    disableThemeToggle: false
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers","talks"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: false
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Zifan Zhang
+          subtitle: "Ph.D. Student in Computer Science at NC State University. I work with Prof. Yuchen Liu on network digital twins, federated learning security, and intelligent network architectures for HPC and wireless systems."
+          imageUrl: "pic.png"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Zifan Zhang
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: CV
+              url: cv/
+            - name: Timeline
+              url: timeline/
+
+    socialIcons:
+        - name: Email
+          url: mailto:zzhang66@ncsu.edu
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=tPkUfx4AAAAJ
+        - name: GitHub
+          url: https://github.com/ZzZTripleZzZ
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/zifan-zhang-812855201/
+        - name: CV
+          url: ZifanZhang_CV.pdf
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Zifan Zhang"
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

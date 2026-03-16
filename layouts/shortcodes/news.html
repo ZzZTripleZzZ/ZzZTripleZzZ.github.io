@@ -1,0 +1,19 @@
+{{ $items := site.Data.news }}
+<section class="news-section">
+  <h2 class="news-heading">News</h2>
+  <div class="news-ticker-wrap" aria-label="Recent news">
+    <div class="news-ticker" id="newsTicker">
+      {{ range $items }}
+      <div class="news-item">
+        <span class="news-date">[{{ .date }}]</span>
+        <span class="news-text">
+          {{ .text }}
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="noopener">{{ .linkText }}</a>.
+          {{ end }}
+        </span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -2,9 +2,9 @@
   title: "Research Intern"
   institution: "Oak Ridge National Laboratory"
   location: "Oak Ridge, TN"
-  body: "Research intern in the ExaDIGIT project under Dr. Wes Brewer. Led core technical development and experimental evaluations on exascale digital twins for liquid-cooled supercomputers. Primary presenter and technical lead in recurring ORNL project meetings. Contributed to a submission at SC25 and internal ExaDIGIT milestones. Recipient of the 2025 R&D 100 Award."
+  body: "Research intern in [Workflows and Ecosystem Services Group](https://www.ornl.gov/group/workflows-and-ecosystem-services), mentored by [Wes Brewer](https://www.ornl.gov/staff-profile/wes-h-brewer). Led core technical development and experimental evaluations on exascale digital twins for liquid-cooled supercomputers within [ExaDigiT](https://code.ornl.gov/exadigit). Primary presenter and technical lead in recurring ORNL project meetings. Contributed to a submission at SC25 and internal ExaDigiT milestones. Recipient of 2025 R&D 100 Award."
   link: "https://code.ornl.gov/exadigit"
-  linkText: "ExaDIGIT"
+  linkText: "ExaDigiT"
   present: true
   highlight: true
 

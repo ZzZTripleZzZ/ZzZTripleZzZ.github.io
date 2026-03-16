@@ -28,18 +28,23 @@ h1, h2, h3, h4, h5, h6,
    ---------------------------------------------------------- */
 body,
 .list {
-  background-color: #f9fafb;
-  background-image: radial-gradient(circle, rgba(99,102,241,0.12) 1px, transparent 1px);
-  background-size: 28px 28px;
+  /* Soft lavender-tinted background + visible dot grid + top accent gradient */
+  background-color: #f5f6ff;
+  background-image:
+    linear-gradient(180deg, rgba(99,102,241,0.07) 0%, transparent 340px),
+    radial-gradient(circle, rgba(99,102,241,0.22) 1px, transparent 1px);
+  background-size: auto, 28px 28px;
   background-attachment: fixed;
 }
 
 .dark body,
 .dark.list,
 .dark .list {
-  background-color: rgb(29, 30, 32);
-  background-image: radial-gradient(circle, rgba(165,180,252,0.10) 1px, transparent 1px);
-  background-size: 28px 28px;
+  background-color: rgb(24, 25, 30);
+  background-image:
+    linear-gradient(180deg, rgba(129,140,248,0.08) 0%, transparent 340px),
+    radial-gradient(circle, rgba(165,180,252,0.16) 1px, transparent 1px);
+  background-size: auto, 28px 28px;
   background-attachment: fixed;
 }
 
@@ -768,11 +773,17 @@ body,
   border: 1px solid var(--border);
   border-radius: 10px;
   overflow: hidden;
-  background: var(--entry);
+  background: #e8eaf6;
   box-shadow: 0 1px 6px rgba(0,0,0,0.05);
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  align-items: center;
+  padding: 0.75rem;
+  min-height: 180px;
+}
+
+.dark .visitor-map-wrap {
+  background: #1e2035;
 }
 
 .visitor-map-note {

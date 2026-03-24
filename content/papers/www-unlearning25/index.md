@@ -13,11 +13,12 @@ citations: 8
 award: ""
 bibtex: |
   @inproceedings{wang2025poisoning,
-    title     = {Poisoning Attacks and Defenses to Federated Unlearning},
-    author    = {Wang, Wenbo and Ma, Qiang and Zhang, Zifan and Liu, Yuchen and Liu, Zhifeng and Fang, Minghong},
-    booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
-    pages     = {1365--1369},
-    year      = {2025}
+    title={Poisoning Attacks and Defenses to Federated Unlearning},
+    author={Wang, Wenbin and Ma, Qiwen and Zhang, Zifan and Liu, Yuchen and Liu, Zhuqing and Fang, Minghong},
+    booktitle={Companion Proceedings of the ACM on Web Conference 2025},
+    pages={1365--1369},
+    year={2025},
+    doi={10.1145/3701716.3715494}
   }
 ---
 

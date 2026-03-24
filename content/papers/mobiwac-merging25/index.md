@@ -13,10 +13,12 @@ citations: 2
 award: ""
 bibtex: |
   @inproceedings{zhang2025transferring,
-    title     = {On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins},
-    author    = {Zhang, Zifan and Fang, Minghong and Chen, Mingzhe and Liu, Yuchen},
-    booktitle = {International Symposium on Mobility Management and Wireless Access (MobiWac)},
-    year      = {2025}
+    title={On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins},
+    author={Zhang, Zifan and Fang, Minghong and Chen, Mingzhe and Liu, Yuchen},
+    booktitle={2025 International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)},
+    pages={695--704},
+    year={2025},
+    doi={10.1109/MSWiM67937.2025.11309199}
   }
 ---
 

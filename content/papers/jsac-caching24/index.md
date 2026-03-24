@@ -13,13 +13,15 @@ citations: 28
 award: ""
 bibtex: |
   @article{zhang2024digital,
-    title   = {Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks},
-    author  = {Zhang, Zifan and Liu, Yuchen and Peng, Zijian and Chen, Mingzhe and Xu, Daquan and Cui, Shuguang},
-    journal = {IEEE Journal on Selected Areas in Communications},
-    volume  = {42},
-    number  = {11},
-    pages   = {3306--3320},
-    year    = {2024}
+    title={Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks},
+    author={Zhang, Zifan and Liu, Yuchen and Peng, Zhiyuan and Chen, Mingzhe and Xu, Dongkuan and Cui, Shuguang},
+    journal={IEEE Journal on Selected Areas in Communications},
+    volume={42},
+    number={11},
+    pages={3306--3320},
+    year={2024},
+    publisher={IEEE},
+    doi={10.1109/JSAC.2024.3431575}
   }
 ---
 

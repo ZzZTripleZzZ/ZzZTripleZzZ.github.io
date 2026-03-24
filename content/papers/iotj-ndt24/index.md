@@ -13,13 +13,15 @@ citations: 11
 award: ""
 bibtex: |
   @article{zhang2024securing,
-    title   = {Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks},
-    author  = {Zhang, Zifan and Fang, Minghong and Chen, Mingzhe and Li, Gaofei and Lin, Xin and Liu, Yuchen},
-    journal = {IEEE Internet of Things Journal},
-    volume  = {11},
-    number  = {21},
-    pages   = {34312--34324},
-    year    = {2024}
+    title={Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks},
+    author={Zhang, Zifan and Fang, Minghong and Chen, Mingzhe and Li, Gaolei and Lin, Xi and Liu, Yuchen},
+    journal={IEEE Internet of Things Journal},
+    volume={11},
+    number={21},
+    pages={34312--34324},
+    year={2024},
+    publisher={IEEE},
+    doi={10.1109/JIOT.2024.3421895}
   }
 ---
 

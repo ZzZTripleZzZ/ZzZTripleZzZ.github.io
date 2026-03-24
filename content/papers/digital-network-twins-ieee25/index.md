@@ -13,10 +13,13 @@ citations: 7
 award: ""
 bibtex: |
   @article{zhang2025digital,
-    title   = {Digital Network Twins for Next-Generation Wireless: Creation, Optimization, and Challenges},
-    author  = {Zhang, Zifan and Peng, Zijian and Yu, Hongyang and Chen, Mingzhe and Liu, Yuchen},
-    journal = {IEEE Network},
-    year    = {2025}
+    title={Digital Network Twins for Next-Generation Wireless: Creation, Optimization, and Challenges},
+    author={Zhang, Zifan and Peng, Zhiyuan and Yu, Hanzhi and Chen, Mingzhe and Liu, Yuchen},
+    journal={IEEE Network},
+    pages={1--9},
+    year={2025},
+    publisher={IEEE},
+    doi={10.1109/MNET.2025.3620323}
   }
 ---
 

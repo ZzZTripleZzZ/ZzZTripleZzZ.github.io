@@ -12,11 +12,13 @@ papertype: "Conference"
 citations: 85
 award: ""
 bibtex: |
-  @inproceedings{fang2024toward,
-    title     = {Toward Byzantine-Robust Decentralized Federated Learning},
-    author    = {Fang, Minghong and Zhang, Zifan and Hairi and Khanduri, Prashant and Liu, Jia and Lu, Songtao and Liu, Yuchen and Gong, Neil},
-    booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security},
-    year      = {2024}
+  @inproceedings{fang2024byzantine,
+    title={Byzantine-Robust Decentralized Federated Learning},
+    author={Fang, Minghong and Zhang, Zifan and Hairi and Khanduri, Prashant and Liu, Jia and Lu, Songtao and Liu, Yuchen and Gong, Neil},
+    booktitle={Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security},
+    pages={2874--2888},
+    year={2024},
+    doi={10.1145/3658644.3670307}
   }
 ---
 

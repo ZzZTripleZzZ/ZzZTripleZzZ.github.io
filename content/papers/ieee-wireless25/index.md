@@ -13,13 +13,15 @@ citations: 2
 award: ""
 bibtex: |
   @article{zhang2025synergizing,
-    title   = {Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security},
-    author  = {Zhang, Zifan and Fang, Minghong and Chen, Dingxi and Yang, Xiao and Liu, Yuchen},
-    journal = {IEEE Wireless Communications},
-    volume  = {32},
-    number  = {3},
-    pages   = {98--105},
-    year    = {2025}
+    title={Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security},
+    author={Zhang, Zifan and Fang, Minghong and Chen, Dianwei and Yang, Xianfeng and Liu, Yuchen},
+    journal={IEEE Wireless Communications},
+    volume={32},
+    number={3},
+    pages={98--105},
+    year={2025},
+    publisher={IEEE},
+    doi={10.1109/MWC.002.2400416}
   }
 ---
 

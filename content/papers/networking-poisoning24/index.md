@@ -13,11 +13,12 @@ citations: 16
 award: "Best Paper Award Runner-up"
 bibtex: |
   @inproceedings{zhang2024poisoning,
-    title     = {Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction},
-    author    = {Zhang, Zifan and Fang, Minghong and Huang, Jiannan and Liu, Yuchen},
-    booktitle = {2024 IFIP Networking Conference (IFIP Networking)},
-    pages     = {423--431},
-    year      = {2024}
+    title={Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction},
+    author={Zhang, Zifan and Fang, Minghong and Huang, Jiayuan and Liu, Yuchen},
+    booktitle={2024 IFIP Networking Conference (IFIP Networking)},
+    pages={423--431},
+    year={2024},
+    doi={10.23919/IFIPNetworking62109.2024.10619763}
   }
 ---
 

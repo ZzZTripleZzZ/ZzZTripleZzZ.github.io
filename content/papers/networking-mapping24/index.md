@@ -13,11 +13,12 @@ citations: 9
 award: ""
 bibtex: |
   @inproceedings{zhang2024mapping,
-    title     = {Mapping Wireless Networks into Digital Reality through Joint Vertical and Horizontal Learning},
-    author    = {Zhang, Zifan and Chen, Mingzhe and Yang, Zhaoyang and Liu, Yuchen},
-    booktitle = {2024 IFIP Networking Conference (IFIP Networking)},
-    pages     = {359--367},
-    year      = {2024}
+    title={Mapping Wireless Networks into Digital Reality through Joint Vertical and Horizontal Learning},
+    author={Zhang, Zifan and Chen, Mingzhe and Yang, Zhaohui and Liu, Yuchen},
+    booktitle={2024 IFIP Networking Conference (IFIP Networking)},
+    pages={359--367},
+    year={2024},
+    doi={10.23919/IFIPNetworking62109.2024.10619056}
   }
 ---
 

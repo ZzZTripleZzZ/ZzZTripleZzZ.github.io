@@ -1,4 +1,9 @@
 - date: "03/26"
+  text: "New preprint: a survey on digital twins for intelligent transportation and communication systems is available on"
+  link: "https://zenodo.org/records/19136071"
+  linkText: "Zenodo"
+
+- date: "03/26"
   text: "A paper on enhancing autonomous driving safety through Vision-Language Models has been accepted by"
   link: "https://ieee-iv.org/2026/"
   linkText: "IEEE Intelligent Vehicles Symposium Workshops"

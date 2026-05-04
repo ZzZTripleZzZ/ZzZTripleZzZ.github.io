@@ -1,21 +1,22 @@
 {
-  "total_citations": 198,
+  "total_citations": 213,
   "h_index": 8,
   "i10_index": 5,
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-05-04",
   "papers": {
-    "Toward Byzantine-Robust Decentralized Federated Learning": 0,
-    "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks": 30,
+    "Toward Byzantine-Robust Decentralized Federated Learning": 101,
+    "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks": 33,
     "Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction": 17,
     "Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks": 12,
     "Poisoning Attacks and Defenses to Federated Unlearning": 10,
-    "INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Edge Case Evaluation": 9,
+    "INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Edge Case Evaluation": 10,
     "Mapping Wireless Networks into Digital Reality through Joint Vertical and Horizontal Learning": 9,
     "Digital Network Twins for Next-Generation Wireless: Creation, Optimization, and Challenges": 8,
     "Sample and Communication Efficient Fully Decentralized MARL Policy Evaluation via a New Approach: Local TD Update": 6,
     "Synergizing AI and Digital Twins for Next-Generation Network Optimization, Forecasting, and Security": 3,
     "On the Hardness of Decentralized Multi-Agent Policy Evaluation under Byzantine Attacks": 3,
     "On Transferring, Merging, and Splitting Task-Oriented Network Digital Twins": 1,
+    "Digital Twins in Intelligent Transportation and Communication Systems: A Survey": 0,
     "Communication Efficiency and Security for Multi-Agent Reinforcement Learning": 0
   }
 }

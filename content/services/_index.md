@@ -34,9 +34,16 @@ College of Engineering, North Carolina State University, 2024.
 
 ---
 
+### Workshop & Conference Organization
+
+- **TPC Chair** --- 3rd Workshop on Digital Twins over NextG Wireless Networks, IEEE GLOBECOM 2026
+
+---
+
 ### Journal Reviewing
 
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Communications (TCOM)
 - IEEE Journal on Selected Areas in Communications (JSAC)
 - IEEE Transactions on Information Forensics and Security (TIFS)

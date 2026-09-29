@@ -13,7 +13,7 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "citations.j
 
 # Maps Google Scholar titles (lowercase) to exact frontmatter titles used on the website
 TITLE_MAP = {
-    "byzantine-robust decentralized federated learning": "Toward Byzantine-Robust Decentralized Federated Learning",
+    "byzantine-robust decentralized federated learning": "Byzantine-Robust Decentralized Federated Learning",
     "digital twin-assisted data-driven optimization for reliable edge caching in wireless networks": "Digital Twin-Assisted Data-Driven Optimization for Reliable Edge Caching in Wireless Networks",
     "poisoning attacks on federated learning-based wireless traffic prediction": "Poisoning Attacks on Federated Learning-based Wireless Traffic Prediction",
     "securing distributed network digital twin systems against model poisoning attacks": "Securing Distributed Network Digital Twin Systems Against Model Poisoning Attacks",

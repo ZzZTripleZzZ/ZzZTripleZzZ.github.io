@@ -9,7 +9,6 @@ tldr: "Proposes a joint vertical-and-horizontal federated learning scheme that m
 pdf: "https://arxiv.org/pdf/2404.14497"
 arxiv: "https://arxiv.org/abs/2404.14497"
 papertype: "Conference"
-citations: 9
 award: ""
 bibtex: |
   @inproceedings{zhang2024mapping,

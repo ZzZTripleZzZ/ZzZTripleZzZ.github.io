@@ -9,7 +9,6 @@ tldr: "Establishes fundamental hardness results showing that Byzantine-robust po
 pdf: "https://arxiv.org/pdf/2409.12882"
 arxiv: "https://arxiv.org/abs/2409.12882"
 papertype: "Conference"
-citations: 0
 award: ""
 bibtex: |
   @inproceedings{fang2024hardness,

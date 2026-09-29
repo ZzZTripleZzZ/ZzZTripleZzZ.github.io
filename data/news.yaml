@@ -1,5 +1,25 @@
+- date: "08/26"
+  text: "New preprint on CENTILE, a telemetry foundation model evaluated by the HPC scheduling and network provisioning decisions it drives, is"
+  link: "https://arxiv.org/abs/2608.01725"
+  linkText: "available"
+
+- date: "07/26"
+  text: "New preprint on securing autonomous vehicle systems via twin-aware federated reinforcement learning is"
+  link: "https://arxiv.org/abs/2607.08137"
+  linkText: "available"
+
+- date: "06/26"
+  text: "New preprint on customized generative AI agents for transportation engineering practice via continued pre-training is"
+  link: "https://arxiv.org/abs/2606.29014"
+  linkText: "available"
+
 - date: "05/26"
-  text: "Glad to serve as TPC Chair of the 3rd Workshop on Digital Twins over NextG Wireless Networks at"
+  text: "New preprint on OpenTwin, closed-loop digital twins for trustworthy policy deployment in Open RAN, is"
+  link: "https://arxiv.org/abs/2605.24662"
+  linkText: "available"
+
+- date: "05/26"
+  text: "Glad to serve as Co-Chair of the 3rd Workshop on Digital Twins over NextG Wireless Networks at"
   link: "https://globecom2026.ieee-globecom.org/"
   linkText: "IEEE GLOBECOM 2026"
 
@@ -15,7 +35,7 @@
 
 - date: "03/26"
   text: "New preprint on digital twins for intelligent transportation and communication systems is"
-  link: "https://zenodo.org/records/19136071"
+  link: "https://zifanzhang.com/papers/itcs-dt-survey26/"
   linkText: "available"
 
 - date: "03/26"
@@ -40,8 +60,8 @@
 
 - date: "09/25"
   text: "A paper on transferring, merging, and splitting task-oriented network digital twins has been accepted by"
-  link: "https://mobiwac-symposium.org/2025/"
-  linkText: "MobiWac 2025"
+  link: "https://mswimconf.com/2025/"
+  linkText: "ACM MSWiM 2025"
 
 - date: "08/25"
   text: "Glad to serve on the Search Advisory Committee for the next Department Head of Computer Science in the College of Engineering."

@@ -9,7 +9,6 @@ tldr: "Uses a network digital twin as a risk-free simulation environment to trai
 pdf: "https://arxiv.org/pdf/2407.00286"
 arxiv: "https://arxiv.org/abs/2407.00286"
 papertype: "Journal"
-citations: 28
 award: ""
 bibtex: |
   @article{zhang2024digital,

@@ -9,7 +9,6 @@ tldr: "A comprehensive survey and framework for building, optimizing, and deploy
 pdf: "https://arxiv.org/pdf/2410.18002"
 arxiv: "https://arxiv.org/abs/2410.18002"
 papertype: "Journal"
-citations: 7
 award: ""
 bibtex: |
   @article{zhang2025digital,

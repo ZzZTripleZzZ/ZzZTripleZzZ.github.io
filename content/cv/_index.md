@@ -2,12 +2,6 @@
 title: "Curriculum Vitae"
 ---
 
-<div class="cv-download-bar">
-  <a href="/ZifanZhang_CV.pdf" class="cv-download-btn" download>Download PDF</a>
-</div>
-
----
-
 ## Education
 
 **Ph.D. in Computer Science**

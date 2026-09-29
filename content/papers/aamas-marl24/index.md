@@ -9,7 +9,6 @@ tldr: "Introduces a local TD-update approach for decentralized MARL policy evalu
 pdf: "https://arxiv.org/pdf/2403.15935"
 arxiv: "https://arxiv.org/abs/2403.15935"
 papertype: "Conference"
-citations: 5
 award: ""
 bibtex: |
   @inproceedings{hairi2024sample,

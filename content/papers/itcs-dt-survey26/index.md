@@ -6,22 +6,22 @@ author: ["Z. Zhang", "D. Chen", "X. Yang", "S. Mao", "Y. Liu"]
 venue: "Preprint"
 venueShort: "Preprint 2026"
 tldr: "A unified taxonomy and survey of digital twins for intelligent transportation and communication systems, covering six DT categories from single-vehicle twins to a Twin of Twins orchestration layer."
-pdf: "https://zenodo.org/records/19136071/files/_COMST__Connected_Transportation_Digital_Twin_Survey%20(7).pdf?download=1"
-arxiv: "https://zenodo.org/records/19136071"
+pdf: "/papers/Zhang_DT_ITCS_Survey_2026.pdf"
 papertype: "Preprint"
 bibtex: |
-  @article{zhang2026itcs,
-    title   = {Digital Twins in Intelligent Transportation and Communication Systems: A Survey},
-    author  = {Zhang, Zifan and Chen, Dianwei and Yang, Xianfeng and Mao, Shiwen and Liu, Yuchen},
-    journal = {Preprint},
-    year    = {2026},
-    doi     = {10.5281/zenodo.19136071}
+  @misc{zhang2026itcs,
+    title        = {Digital Twins in Intelligent Transportation and Communication Systems: A Survey},
+    author       = {Zhang, Zifan and Chen, Dianwei and Yang, Xianfeng and Mao, Shiwen and Liu, Yuchen},
+    howpublished = {Digital Repository at the University of Maryland (DRUM)},
+    year         = {2026},
+    doi          = {10.5281/zenodo.19136071}
   }
 ---
 
 ##### Download
 
-+ [Paper](https://zenodo.org/records/19136071/files/_COMST__Connected_Transportation_Digital_Twin_Survey%20(7).pdf?download=1)
++ [Paper](/papers/Zhang_DT_ITCS_Survey_2026.pdf)
++ [DRUM](https://drum.lib.umd.edu/items/3f763651-e3be-416d-9938-b808169a735c)
 + [Zenodo](https://zenodo.org/records/19136071)
 
 ---

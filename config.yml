@@ -32,7 +32,7 @@ menu:
           weight: 6
 
 params:
-    description: "Zifan Zhang is a Ph.D. student in Computer Science at NC State University. His research focuses on network digital twins for HPC and wireless systems, federated learning security, and intelligent network architectures."
+    description: "Zifan Zhang is a Ph.D. student in Computer Science at NC State University. His research focuses on network digital twins for wireless, Open RAN, and HPC systems, trustworthy distributed learning, and foundation models for systems telemetry."
     author: Zifan Zhang
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -58,7 +58,7 @@ params:
     profileMode:
           enabled: true
           title: Zifan Zhang
-          subtitle: "Ph.D. Student in Computer Science at NC State University. I work with Prof. Yuchen Liu on network digital twins, federated learning security, and intelligent network architectures for HPC and wireless systems."
+          subtitle: "Ph.D. Student in Computer Science at NC State University. I work with Prof. Yuchen Liu on network digital twins, trustworthy distributed learning, and AI for wireless, Open RAN, and HPC systems."
           imageUrl: "pic.png"
           imageWidth: 160
           imageHeight: 160
@@ -80,8 +80,6 @@ params:
           url: https://github.com/ZzZTripleZzZ
         - name: LinkedIn
           url: https://www.linkedin.com/in/zifan-zhang-812855201/
-        - name: CV
-          url: ZifanZhang_CV.pdf
 
     assets:
         disableScrollBarStyle: true

@@ -36,7 +36,7 @@ College of Engineering, North Carolina State University, 2024.
 
 ### Workshop & Conference Organization
 
-- **TPC Chair** --- 3rd Workshop on Digital Twins over NextG Wireless Networks, IEEE GLOBECOM 2026
+- **Co-Chair** --- 3rd Workshop on Digital Twins over NextG Wireless Networks, IEEE GLOBECOM 2026
 
 ---
 

@@ -9,7 +9,6 @@ tldr: "Surveys the synergy between AI techniques and digital twins for jointly s
 pdf: "https://arxiv.org/pdf/2503.06302"
 arxiv: "https://arxiv.org/abs/2503.06302"
 papertype: "Journal"
-citations: 2
 award: ""
 bibtex: |
   @article{zhang2025synergizing,

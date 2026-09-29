@@ -9,7 +9,6 @@ tldr: "Demonstrates that wireless traffic prediction models trained via federate
 pdf: "https://arxiv.org/pdf/2404.14389"
 arxiv: "https://arxiv.org/abs/2404.14389"
 papertype: "Conference"
-citations: 16
 award: "Best Paper Award Runner-up"
 bibtex: |
   @inproceedings{zhang2024poisoning,

@@ -9,8 +9,7 @@ tldr: "Master's thesis investigating communication-efficient and Byzantine-robus
 pdf: "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1681483595435088&disposition=inline"
 arxiv: ""
 papertype: "Thesis"
-citations: 0
-award: "Master's Thesis"
+award: ""
 bibtex: |
   @mastersthesis{zhang2023communication,
     title  = {Communication Efficiency and Security for Multi-Agent Reinforcement Learning},

@@ -1,4 +1,4 @@
 ---
 title: "Papers"
-description: "Research publications by Zifan Zhang on network digital twins, federated learning security, and intelligent network architectures."
+description: "Research publications by Zifan Zhang on network digital twins, trustworthy distributed learning, and AI for networked systems."
 ---

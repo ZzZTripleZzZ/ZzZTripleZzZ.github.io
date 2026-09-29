@@ -9,7 +9,6 @@ tldr: "First systematic study of model poisoning attacks on distributed network 
 pdf: "https://arxiv.org/pdf/2407.01917"
 arxiv: "https://arxiv.org/abs/2407.01917"
 papertype: "Journal"
-citations: 11
 award: ""
 bibtex: |
   @article{zhang2024securing,

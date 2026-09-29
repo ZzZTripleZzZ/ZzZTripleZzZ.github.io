@@ -9,7 +9,6 @@ tldr: "Reveals that federated unlearning is vulnerable to poisoning attacks that
 pdf: "https://arxiv.org/pdf/2501.17396"
 arxiv: "https://arxiv.org/abs/2501.17396"
 papertype: "Workshop"
-citations: 8
 award: ""
 bibtex: |
   @inproceedings{wang2025poisoning,

@@ -3,13 +3,12 @@ title: "On Transferring, Merging, and Splitting Task-Oriented Network Digital Tw
 date: 2025-09-01
 tags: ["Digital Twin", "Transfer Learning", "Network Management"]
 author: ["Z. Zhang", "M. Fang", "M. Chen", "Y. Liu"]
-venue: "International Symposium on Mobility Management and Wireless Access"
-venueShort: "MobiWac 2025"
+venue: "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems"
+venueShort: "MSWiM 2025"
 tldr: "Introduces principled operations --- transfer, merge, and split --- for task-oriented network digital twins, enabling flexible composition and reuse of twin models across heterogeneous network environments."
 pdf: "https://arxiv.org/pdf/2509.02551"
 arxiv: "https://arxiv.org/abs/2509.02551"
-papertype: "Workshop"
-citations: 2
+papertype: "Conference"
 award: ""
 bibtex: |
   @inproceedings{zhang2025transferring,
@@ -26,6 +25,7 @@ bibtex: |
 
 + [Paper](https://arxiv.org/pdf/2509.02551)
 + [arXiv](https://arxiv.org/abs/2509.02551)
++ [DOI](https://doi.org/10.1109/MSWiM67937.2025.11309199)
 
 ---
 

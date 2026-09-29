@@ -1,5 +1,5 @@
 ---
-title: "Toward Byzantine-Robust Decentralized Federated Learning"
+title: "Byzantine-Robust Decentralized Federated Learning"
 date: 2024-10-01
 tags: ["Federated Learning", "Byzantine Robustness", "Decentralized Learning", "Security"]
 author: ["M. Fang", "Z. Zhang", "Hairi", "P. Khanduri", "J. Liu", "S. Lu", "Y. Liu", "Z. Gong"]
@@ -9,7 +9,6 @@ tldr: "Provides the first theoretically-grounded Byzantine-robust algorithm for 
 pdf: "https://arxiv.org/pdf/2406.10416"
 arxiv: "https://arxiv.org/abs/2406.10416"
 papertype: "Conference"
-citations: 85
 award: ""
 bibtex: |
   @inproceedings{fang2024byzantine,

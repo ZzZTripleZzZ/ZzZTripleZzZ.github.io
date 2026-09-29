@@ -9,12 +9,11 @@ tldr: "INSIGHT leverages Vision-Language Models to detect context-aware hazards 
 pdf: "https://arxiv.org/pdf/2502.00262"
 arxiv: "https://arxiv.org/abs/2502.00262"
 papertype: "Workshop"
-citations: 8
 award: ""
 bibtex: |
   @inproceedings{chen2026insight,
     title     = {INSIGHT: Enhancing Autonomous Driving Safety through Vision-Language Models on Context-Aware Hazard Detection and Reasoning},
-    author    = {Chen, Dingxi and Zhang, Zifan and Liu, Yuchen and Yang, Xiao-Tang},
+    author    = {Chen, Dianwei and Zhang, Zifan and Liu, Yuchen and Yang, Xianfeng},
     booktitle = {IEEE Intelligent Vehicles Symposium Workshops},
     year      = {2026}
   }

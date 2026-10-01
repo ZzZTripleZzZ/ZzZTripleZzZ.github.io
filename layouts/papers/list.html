@@ -80,6 +80,12 @@
         {{- if .Params.arxiv }}
         <a href="{{ .Params.arxiv }}" target="_blank" rel="noopener" class="paper-link">[arXiv]</a>
         {{- end }}
+        {{- if .Params.website }}
+        <a href="{{ .Params.website }}" target="_blank" rel="noopener" class="paper-link">[Project page]</a>
+        {{- end }}
+        {{- if .Params.code }}
+        <a href="{{ .Params.code }}" target="_blank" rel="noopener" class="paper-link">[Code]</a>
+        {{- end }}
         {{- if .Params.bibtex }}
         <button class="paper-link bibtex-btn" onclick="toggleBibtex('bibtex-{{ .File.UniqueID }}')" aria-expanded="false">
           [Cite]

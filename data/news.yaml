@@ -1,3 +1,8 @@
+- date: "10/26"
+  text: "We released Isaac-Net, an open-source GPU-batched 5G network simulator that trains about one million networked robots in Isaac Lab on a single GPU (pip install isaac-net). Project page:"
+  link: "https://isaacnet.zifanzhang.com"
+  linkText: "isaacnet.zifanzhang.com"
+
 - date: "08/26"
   text: "New preprint on CENTILE, a telemetry foundation model evaluated by the HPC scheduling and network provisioning decisions it drives, is"
   link: "https://arxiv.org/abs/2608.01725"

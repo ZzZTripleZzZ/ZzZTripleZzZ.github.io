@@ -6,8 +6,8 @@ author: ["Z. Zhang*", "M. Han*", "K. Athreya", "Y. Liu"]
 venue: "Preprint"
 venueShort: "Preprint 2026"
 tldr: "Isaac-Net advances the 5G uplink of thousands of Isaac Lab environments slot by slot on the GPU, in lockstep with the physics: about one million robots with the network in the loop at 83% of the network-free rate, validated against ns-3 5G-LENA and the OpenAirInterface 5G stack. Open source: pip install isaac-net."
-pdf: ""
-arxiv: ""
+pdf: "https://arxiv.org/pdf/2610.02370"
+arxiv: "https://arxiv.org/abs/2610.02370"
 code: "https://github.com/ZzZTripleZzZ/isaac-net"
 website: "https://isaacnet.zifanzhang.com"
 papertype: "Preprint"
@@ -15,7 +15,7 @@ bibtex: |
   @article{zhang2026isaacnet,
     title   = {Network-in-the-Loop at Scale: GPU-Batched 5G Simulation for Massively Parallel Robot Learning},
     author  = {Zhang, Zifan and Han, Mingzhe and Athreya, Kannan and Liu, Yuchen},
-    journal = {arXiv preprint},
+    journal = {arXiv preprint arXiv:2610.02370},
     year    = {2026},
     note    = {Zifan Zhang and Mingzhe Han contributed equally}
   }
@@ -25,10 +25,11 @@ bibtex: |
 
 ##### Links
 
++ [Paper (PDF)](https://arxiv.org/pdf/2610.02370)
++ [arXiv](https://arxiv.org/abs/2610.02370)
 + [Project page](https://isaacnet.zifanzhang.com)
 + [Code (GitHub)](https://github.com/ZzZTripleZzZ/isaac-net)
 + [Package (PyPI)](https://pypi.org/project/isaac-net/): `pip install isaac-net`
-+ arXiv: link to follow
 
 ---
 

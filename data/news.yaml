@@ -1,4 +1,9 @@
 - date: "10/26"
+  text: "HLogformer, a hierarchical transformer for log data (with Amazon collaborators), was accepted at the Third Workshop on Long-Context Foundation Models at NeurIPS 2026. The paper is"
+  link: "https://arxiv.org/abs/2408.16803"
+  linkText: "on arXiv"
+
+- date: "10/26"
   text: "We released Isaac-Net, an open-source GPU-batched 5G network simulator that trains about one million networked robots in Isaac Lab on a single GPU (pip install isaac-net). Project page:"
   link: "https://isaacnet.zifanzhang.com"
   linkText: "isaacnet.zifanzhang.com"

@@ -24,9 +24,6 @@ menu:
         - name: Services
           url: services/
           weight: 4
-        - name: CV
-          url: cv/
-          weight: 5
         - name: Life
           url: life/
           weight: 6
@@ -66,8 +63,6 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: CV
-              url: cv/
             - name: Timeline
               url: timeline/
 
